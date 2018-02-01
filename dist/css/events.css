@@ -1,0 +1,617 @@
+/*
+    ==== GRID ====
+*/
+
+/*datepicker*/
+
+.ui-datepicker {
+	font-size: 16px;
+	background: #2b3844;
+	border-radius: 4px;
+	width: 247px;
+	padding: 5px;
+	display: none;
+	z-index: 9999 !important;
+}
+
+.ui-datepicker .ui-datepicker-header {
+	background: #fff;
+	position: relative;
+}
+
+.ui-datepicker .ui-datepicker-title {
+	text-align: center;
+	padding: 10px 45px 16px;
+	color: #2b3844;
+	font: 18px/21px "sorts_mill_goudyregular", serif;
+}
+
+.ui-datepicker .ui-datepicker-header a {
+	border-radius: 4px;
+	position: absolute;
+	top: 5px;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	background: #536b82;
+	cursor: pointer;
+}
+
+.ui-datepicker .ui-datepicker-header a:hover {
+	background: #2b3844;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+	left: 5px;
+}
+
+.ui-datepicker .ui-datepicker-next {
+	right: 5px;
+}
+
+.ui-datepicker .ui-datepicker-next span,
+.ui-datepicker .ui-datepicker-prev span {
+	text-indent: -9999px;
+	height: 16px;
+	width: 17px;
+	margin: 7px 0 0 0;
+	display: block;
+	overflow: hidden;
+	border: solid transparent;
+	border-width: 8px;
+	border-right: 9px solid #fff;
+}
+
+.ui-datepicker .ui-datepicker-next span {
+	margin: 7px 0 0 13px;
+	border: solid transparent;
+	border-width: 8px;
+	border-left: 9px solid #fff;
+}
+
+.ui-datepicker .ui-datepicker-calendar {
+	background: #fff;
+	width: 100%;
+	text-align: center;
+}
+
+.ui-datepicker .ui-datepicker-calendar th {
+	border: 2px solid #fff;
+	padding: 0;
+	width: 36px;
+	text-align: center;
+	font-family: "sorts_mill_goudyregular",serif;
+	font-weight: normal;
+	color: #333333;
+}
+
+.ui-datepicker .ui-datepicker-calendar td {
+	width: 36px;
+	border: 2px solid #fff;
+}
+
+.ui-datepicker .ui-datepicker-calendar td a {
+	display: block;
+	height: 26px;
+	line-height: 25px;
+	background: #536b82;
+	color: #fff;
+}
+
+.ui-datepicker .ui-datepicker-calendar td a.ui-state-active,
+.ui-datepicker .ui-datepicker-calendar td a:hover {
+	background: #2b3844;
+	text-decoration: none;
+}
+
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-today a:hover,
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-today a {
+	color: #2b3844;
+	border: 1px solid #2b3844;
+	font-weight: bold;
+	background: none;
+}
+
+.ui-datepicker .ui-datepicker-calendar .ui-state-disabled span {
+	cursor: not-allowed;
+	display: block;
+	height: 26px;
+	line-height: 25px;
+	background: #eceff0;
+	color: #666;
+}
+
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-today a:hover,
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-today a.ui-state-active:hover,
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-today a.ui-state-active {
+	color: #fff;
+	background: #2b3844;
+}
+
+.page .content-holder {
+	padding-bottom: 0;
+}
+
+.page .content-holder.alm-ajax {
+	padding-top: 0;
+}
+
+.events-title {
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	margin-bottom: 25px;
+	padding: 13px 0 8px;
+	text-align: center;
+}
+
+.events-title h3 {
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.events-title .buttons a {
+	margin: 0 10px 5px;
+}
+
+.back {
+	margin: 0 0 40px;
+}
+
+.back .btn {
+	float: right;
+}
+
+.events-map {
+	margin: 0 0 15px;
+	text-align: center;
+	position: relative;
+}
+
+.events-map .map-block {
+	max-width: 942px;
+	margin: 0 auto;
+	vertical-align: top;
+	position: relative;
+}
+
+.events-map .empty {
+	width: 100%;
+}
+
+.events-map img {
+	max-width: 100%;
+	vertical-align: top;
+}
+
+.events-map svg {
+	max-width: 962px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.events-map polygon,
+.events-map path {
+	cursor: pointer;
+	fill: rgba(255, 255, 255, 0.1);
+	stroke: rgba(255, 255, 255, 0.7);
+	-webkit-transition: fill .1s, stroke .1s;
+	transition: fill .1s, stroke .1s;
+}
+
+.events-map polygon.active,
+.events-map polygon:hover,
+.events-map path.active,
+.events-map path:hover {
+	fill: #fff;
+	stroke: rgba(0, 0, 0, 0.7);
+}
+
+.event-filter {
+	background: #2b3844;
+	margin: -10px -10px 0;
+	padding: 10px;
+}
+
+.event-filter .sub-ttl {
+	color: #fff;
+	display: block;
+	margin: 0 0 10px;
+}
+
+.event-filter .frame .form-group {
+	height: 24px;
+}
+
+.event-filter select {
+	height: 24px;
+}
+
+.event-filter .SlectBox {
+	height: 24px;
+}
+
+.event-filter .SumoSelect > .optWrapper.open {
+	top: 24px;
+}
+
+.event-filter .SumoSelect > .CaptionCont > span {
+	height: 24px;
+	font-size: 14px;
+}
+
+.event-filter .SumoSelect > .optWrapper > .options > li label {
+	font-size: 14px;
+}
+
+.event-filter .SumoSelect > .CaptionCont > label {
+	width: 8px;
+	height: 5px;
+	top: 9px;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OEE4MUQ4N0QzNEY3MTFFNUE1Nzg5QTBEN0U5RDgyRDQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OEE4MUQ4N0UzNEY3MTFFNUE1Nzg5QTBEN0U5RDgyRDQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4QTgxRDg3QjM0RjcxMUU1QTU3ODlBMEQ3RTlEODJENCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4QTgxRDg3QzM0RjcxMUU1QTU3ODlBMEQ3RTlEODJENCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmieprIAAABTSURBVHjaYvz//38OAwODMBA3MqCCeiB+ywBUIArEV4C4HogZoLgeKibKCBIAAlEg3g/Eq6G6Q4HYEYhfMyDpgpl0BcoGi8NMgAFRKP0aJgAQYADOy0PZ187ZwQAAAABJRU5ErkJggg==') no-repeat;
+}
+
+.event-filter .more-filters {
+	display: none;
+}
+
+.event-filter .form-control.line {
+	float: left;
+	height: 24px;
+	padding: 0;
+}
+
+.event-filter .btn {
+	font-size: 14px;
+	margin-right: 10px;
+	min-width: 86px;
+	padding: 0;
+	height: 28px;
+}
+
+.event-filter .buttons {
+	overflow: hidden;
+}
+
+.event-filter .buttons button {
+	float: left;
+}
+
+.event-filter .buttons.active .adv-search:after {
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+	top: 10px;
+}
+
+.event-filter .btn-link {
+	background: none;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: underline;
+	position: relative;
+}
+
+.event-filter .btn-link:hover {
+	text-decoration: none;
+}
+
+.event-filter .btn-link.adv-search {
+	padding-left: 10px;
+}
+
+.event-filter .btn-link.adv-search:after {
+	content: '';
+	position: absolute;
+	top: 12px;
+	left: 0;
+	width: 8px;
+	height: 5px;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OEE4MUQ4N0QzNEY3MTFFNUE1Nzg5QTBEN0U5RDgyRDQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OEE4MUQ4N0UzNEY3MTFFNUE1Nzg5QTBEN0U5RDgyRDQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4QTgxRDg3QjM0RjcxMUU1QTU3ODlBMEQ3RTlEODJENCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4QTgxRDg3QzM0RjcxMUU1QTU3ODlBMEQ3RTlEODJENCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmieprIAAABTSURBVHjaYvz//38OAwODMBA3MqCCeiB+ywBUIArEV4C4HogZoLgeKibKCBIAAlEg3g/Eq6G6Q4HYEYhfMyDpgpl0BcoGi8NMgAFRKP0aJgAQYADOy0PZ187ZwQAAAABJRU5ErkJggg==') no-repeat;
+}
+
+.alm-reveal:last-child .event:last-child {
+	border-bottom: none;
+}
+
+.event {
+	border-bottom: 1px solid rgba(43, 56, 98, 0.3);
+	padding: 10px 0;
+}
+
+.event .event-img {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 240px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.event .event-text h2 {
+	margin-bottom: 10px;
+}
+
+.event .event-text h2 a {
+	color: #2b3844;
+}
+
+.event .event-text h2 a:hover {
+	text-decoration: underline;
+}
+
+.event .event-text p {
+	margin-bottom: 15px;
+}
+
+.event .event-bottom {
+	padding: 22px 0 0;
+	position: relative;
+}
+
+.event .event-bottom:before {
+	content: '';
+	display: block;
+	width: 40px;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.event .event-bottom strong,
+.event .event-bottom address {
+	display: block;
+	line-height: 28px;
+	margin-bottom: 5px;
+	position: relative;
+	padding: 0 0 0 31px;
+}
+
+.event .event-bottom strong {
+	font-weight: normal;
+}
+
+.event .event-bottom address {
+	font-style: normal;
+}
+
+.event .event-bottom address p {
+	margin: 0;
+}
+
+.event .event-bottom address span {
+	display: block;
+}
+
+.event .event-bottom .location {
+	background: url(../images/icon-location.png) no-repeat 0 3px;
+	padding-left: 27px;
+}
+
+.event .event-bottom .date {
+	background: url(../images/icon-calendar.png) no-repeat 0 3px;
+}
+
+.event .event-bottom .author {
+	background: url(../images/icon-avatar.png) no-repeat 0 3px;
+}
+
+@media (min-width: 640px) {
+
+.event-filter .frame {
+	margin: 0 0 0 -20px;
+}
+
+.event-filter .sel-cols:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.event-filter .sel-cols .form-group {
+	float: left;
+	width: 50%;
+	padding: 0 0 0 20px;
+}
+
+}
+
+@media (min-width: 768px) {
+
+.events-title {
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.events-title h3 {
+	float: left;
+	line-height: 41px;
+	margin-bottom: 0;
+	text-align: left;
+	max-width: 70%;
+}
+
+.events-title .buttons {
+	float: right;
+	text-align: right;
+	width: 200px;
+}
+
+.events-map {
+	margin-bottom: 30px;
+}
+
+.event-filter:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.event-filter .sub-ttl {
+	float: left;
+	margin-right: 15px;
+	width: 72px;
+}
+
+.event-filter .form-holder {
+	float: left;
+	width: calc(100% - 87px);
+}
+
+.event {
+	overflow: hidden;
+}
+
+.event .event-img {
+	float: left;
+	height: 340px;
+	margin: 0 25px 0 0;
+	width: 340px;
+}
+
+.event .event-content {
+	overflow: hidden;
+	padding: 20px 25px 0 0;
+}
+
+.event .event-text h2 {
+	margin-bottom: 20px;
+}
+
+.event .event-text p {
+	margin-bottom: 30px;
+}
+
+}
+
+@media (min-width: 1025px) {
+
+.events-title {
+	margin-bottom: 73px;
+}
+
+.events-title .buttons {
+	float: none;
+	width: auto;
+}
+
+.events-title h3 {
+	max-width: 60%;
+}
+
+.events-map {
+	margin-bottom: 84px;
+}
+
+.event-filter {
+	padding: 22px 20px 13px;
+}
+
+.event-filter .sel-cols {
+	margin-bottom: 19px;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+.event-filter .sel-cols .form-group {
+	width: 25%;
+}
+
+.event-filter .sel-cols.more-filters {
+	margin: 0;
+}
+
+.event-filter .buttons {
+	clear: both;
+}
+
+.event-filter .btn {
+	margin-right: 18px;
+}
+
+.event .event-img {
+	margin: 0 50px 0 0;
+}
+
+.event .event-content {
+	padding: 34px 25px 0 0;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+.event-filter {
+	padding: 19px 20px 16px;
+}
+
+.event-filter .sub-ttl {
+	margin: 3px 14px 0 0;
+}
+
+.event-filter .form-holder {
+	position: relative;
+	padding: 3px 292px 4px 0;
+}
+
+.event-filter .sel-cols {
+	margin: 0;
+}
+
+.event-filter .sel-cols.more-filters {
+	padding: 36px 0 10px;
+}
+
+.event-filter .sel-cols .form-group {
+	margin: 0;
+}
+
+.event-filter .buttons {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	-webkit-transition: all .4s;
+	transition: all .4s;
+}
+
+.event-filter .buttons.active {
+	bottom: 10px;
+}
+
+.event .event-text h2 {
+	margin-bottom: 35px;
+}
+
+.event .event-text p {
+	margin-bottom: 42px;
+}
+
+.event .event-bottom {
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: -5px;
+}
+
+.event .event-bottom strong,
+.event .event-bottom address {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: normal;
+	margin-bottom: 0;
+	margin-left: 4%;
+	vertical-align: top;
+	width: 30%;
+}
+
+.event .event-bottom address {
+	margin-left: 0;
+}
+
+}
+

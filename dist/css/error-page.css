@@ -1,0 +1,64 @@
+/*
+    ==== GRID ====
+*/
+
+.content-holder {
+	height: 500px;
+	display: table;
+	width: 100%;
+}
+
+.error-content {
+	background: url(../images/error-bg.jpg) no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	display: table-cell;
+	font-size: 21px;
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.error-content h1 {
+	color: #fff;
+}
+
+.error-content h2 {
+	color: #fff;
+	font-size: 150px;
+	line-height: 80px;
+	margin-bottom: 70px;
+}
+
+.error-content a {
+	border-bottom: 2px solid #fff;
+	color: #fff;
+}
+
+.error-content a:hover {
+	border-bottom: 2px solid transparent;
+}
+
+@media (min-width: 768px) {
+
+.content-holder {
+	height: 745px;
+}
+
+.error-content {
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.error-content h1 {
+	margin-bottom: 20px;
+}
+
+.error-content h2 {
+	font-size: 240px;
+	line-height: 110px;
+	margin-bottom: 150px;
+}
+
+}
+

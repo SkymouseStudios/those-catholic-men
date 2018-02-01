@@ -1,0 +1,217 @@
+/*
+    ==== GRID ====
+*/
+
+.result-heading {
+	margin-bottom: 10px;
+}
+
+.result-heading strong {
+	color: #fff;
+	font-weight: normal;
+	display: block;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.result-heading .result-tabs {
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: -5px;
+}
+
+.result-heading .result-tabs .btn-tab {
+	font-size: 14px;
+	line-height: 25px;
+	letter-spacing: normal;
+	display: inline-block;
+	width: 50%;
+	min-width: 130px;
+}
+
+.result-heading .result-tabs .btn-tab.current {
+	color: #535353;
+	background: #fff;
+	border-color: #fff;
+}
+
+.tab-content {
+	overflow: hidden;
+	display: none;
+}
+
+.tab-content.current {
+	display: block;
+}
+
+.result {
+	border-bottom: 1px solid rgba(43, 56, 98, 0.3);
+	padding: 11px 0;
+}
+
+.result .result-img {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.result h2 {
+	color: #444;
+	margin-bottom: 7px;
+}
+
+.result h2 a:hover {
+	text-decoration: underline;
+}
+
+.result p {
+	margin-bottom: 15px;
+	text-align: justify;
+}
+
+.result .result-sign address {
+	font-style: normal;
+}
+
+.result .result-sign address,
+.result .result-sign span {
+	font-size: 14px;
+	margin-right: 5px;
+	position: relative;
+}
+
+.result .result-sign address.date,
+.result .result-sign span.date {
+	padding-left: 10px;
+}
+
+.result .result-sign address.date:before,
+.result .result-sign span.date:before {
+	content: '-';
+	display: inline-block;
+	position: absolute;
+	left: 0;
+}
+
+.result .result-sign address p,
+.result .result-sign span p {
+	margin: 0;
+}
+
+.result .result-sign .location,
+.result .result-sign .date-time {
+	display: block;
+	margin-right: 10px;
+	padding-left: 28px;
+}
+
+.result .result-sign .location {
+	background: url(../images/icon-location.png) no-repeat 2px 2px;
+	background-size: 12px 15px;
+}
+
+.result .result-sign .date-time {
+	background: url(../images/icon-calendar.png) no-repeat 2px 2px;
+	background-size: 15px 15px;
+}
+
+/*responsive*/
+
+@media (min-width: 640px) {
+
+.page .content-holder {
+	padding: 10px 30px 40px;
+}
+
+.result .result-img {
+	height: 250px;
+}
+
+}
+
+@media (min-width: 768px) {
+
+.result-heading {
+	margin-bottom: 10px;
+}
+
+.result-heading strong {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.result-heading .result-tabs .btn-tab {
+	font-size: 18px;
+	padding: 20px 7px;
+	width: 270px;
+}
+
+.result {
+	overflow: hidden;
+}
+
+.result .result-img {
+	float: left;
+	height: 250px;
+	margin: 0 25px 0 0;
+	width: 33.33%;
+}
+
+.result .text-wrapper {
+	overflow: hidden;
+}
+
+}
+
+@media (min-width: 1025px) {
+
+.result .result-img {
+	height: 200px;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+.result .result-img {
+	height: 175px;
+	width: 25%;
+}
+
+.result .result-text {
+	float: left;
+	padding-right: 60px;
+	width: 72.5%;
+}
+
+.result .result-text p {
+	margin-bottom: 0;
+}
+
+.result .result-sign {
+	overflow: hidden;
+}
+
+.result .result-sign span,
+.result .result-sign address {
+	font-size: 16px;
+}
+
+.result .result-sign span {
+	display: block;
+}
+
+.result .result-sign span.date {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.result .result-sign span.date:before {
+	display: none;
+}
+
+}
+

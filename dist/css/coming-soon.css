@@ -1,0 +1,106 @@
+/*
+    ==== GRID ====
+*/
+
+.page {
+	padding: 0;
+}
+
+.info-section {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	padding: 80px 0 40px;
+	height: 100vh;
+	display: table;
+}
+
+.info-section .cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.info-section .header-coming .social-links {
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	right: 15px;
+	text-align: center;
+}
+
+.info-section .header-coming .social-links li {
+	display: inline-block;
+	vertical-align: top;
+	width: 39px;
+	text-align: center;
+}
+
+.info-section .header-coming .social-links li a {
+	color: #fff;
+	display: inline-block;
+	font-size: 28px;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+
+.info-section .header-coming .social-links li a:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.info-section .header-coming .social-links li a:before {
+	line-height: 30px;
+}
+
+.info-section .logo-big {
+	display: block;
+	width: 250px;
+	height: 180px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(../images/logo-big.png) no-repeat;
+	background-size: 100% auto;
+	margin: 0 auto 30px;
+}
+
+.info-section .logo-big a {
+	display: block;
+	height: 100%;
+}
+
+.info-section h1 {
+	color: #fff;
+	margin: 0 0 10px;
+}
+
+.info-section h1 .coming {
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+
+.info-section .logo-big {
+	width: 336px;
+	height: 235px;
+}
+
+}
+
+@media (min-width: 1025px) {
+
+.info-section .logo-big {
+	margin-bottom: 67px;
+}
+
+.info-section h1 {
+	line-height: 45px;
+}
+
+.info-section h1 .coming {
+	font-size: 20px;
+}
+
+}
+
