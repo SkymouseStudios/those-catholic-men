@@ -146,27 +146,29 @@ get_header(); ?>
                         </div>
                         <div class="holder">
 
-                            <div class="cols">
-                                <div class="user-form">
-                                    <h3 class="lined">Get Our Newsletter</h3>
-                                    <?php echo do_shortcode('[mc4wp_form id="126"]'); ?>
-                                    <a href="#subscribe-msg" class="check popup-link"></a>
+                            <div class="cols border">
+                                
+                                <div id="home-contact">
+                                    <div class="user-form">
+                                        <div id="promo"></div>
+                                    </div>
+                                    <div class="user-form">
+                                        <h3 style="margin-top: 10px;">Become one of <br>Those Catholic Men</h3>
+                                         <?php echo do_shortcode('[mc4wp_form id="1878"]'); ?>
+                                    </div>
+                                    </div>  
                                 </div>
-<div class="user-form">
-                                    <h3 class="lined">Fight for Your Freedom. Exodus 90</h3>
-<a class="btn btn-white" style="text-decoration: none; width: auto;" href="https://exodus90.com/">Get Started!</a>
-                                </div>
-                            </div>
+                            
 
-                            <?php
-                            //Social links
-                            $social = get_option('social_option_name');
+                                <?php
+                                //Social links
+                                $social = get_option('social_option_name');
 
-                            $fb = $social['facebook'];
-                            $tw = $social['twitter'];
-                            $youtube = $social['youtube'];
-                            $rss = $social['rss'];
-                            ?>
+                                $fb = $social['facebook'];
+                                $tw = $social['twitter'];
+                                $youtube = $social['youtube'];
+                                $rss = $social['rss'];
+                                ?>
 
                             <div class="social-panel">
                                 <h3>Follow us on Social Media:</h3>

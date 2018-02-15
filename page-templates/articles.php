@@ -6,11 +6,10 @@ get_header(); ?>
 
 <?php // This is the articles archive and it has the sidebar hard-coded into it ?>
 
-        <header class="header clearfix" id="header">
-            <?php get_template_part('parts/section', 'header'); ?>
-        </header>
+<header class="header clearfix" id="header">
+    <?php get_template_part('parts/section', 'header'); ?>
+</header>
 
-        <?php  ?>
 
         <div class="container">
             <div class="sort-by">
@@ -106,80 +105,16 @@ get_header(); ?>
                     </div>
                 </div>
 
-                <div class="lap-4 tab-4">
-                    <aside id="sidebar">
-<p style="padding: 10px; font: 16px gotham_promedium,sans-serif; line-height: 30px;">
-On the go? Subscribe to the <a style="color: white; text-decoration:underline;" href="https://pinecast.com/feed/those-catholic-men">RSS Feed</a> of our audio blog or...
-</p>
-<div class="itunes">
-	<a href="https://itunes.apple.com/us/podcast/those-catholic-men/id1340543443?mt=2"><img style="width:100%;" src="http://thosecatholicmen.com/wp-content/uploads/2018/01/itunes-retina.png" alt="Subscribe on itunes"></a>
-</div>
+<div class="lap-4 tab-4"> <!-- Begin Sidebar Column -->
 
-                        <div class="social-plugin" style="margin-top:0px;">
-                            <!--Facebook widget-->
-                            <div id="fb-root"></div>
-                            <script>(function(d, s, id) {
-                              var js, fjs = d.getElementsByTagName(s)[0];
-                              if (d.getElementById(id)) return;
-                              js = d.createElement(s); js.id = id;
-                              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-                              fjs.parentNode.insertBefore(js, fjs);
-                            }(document, 'script', 'facebook-jssdk'));</script>
+    <aside id="sidebar">
+        <?php get_template_part('parts/sidebar-content'); ?>
+    </aside>
+</div> <!-- End Sidebar Column -->
+           
 
-                            <?php
-                                $info = get_option('info_site_name');
-                                echo $info['facebook'];
-                            ?>
-                            <!--Facebook widget-->
-                        </div>
-
-                        <!--Tag cloud-->
-<!--                        <div class="tag-cloud">-->
-<!--                            <h3>Tags</h3>-->
-<!--                            <div class="tags">-->
-<!--                                --><?php //$post_types_tags = post_type_tags( 'articles' );
-//                                foreach( $post_types_tags as $tag ) {
-//                                    echo '<a href="' . get_tag_link( $tag->term_id ). '">' . esc_html( $tag->name ) . '</a>';
-//                                } ?>
-<!--                            </div>-->
-<!--                            <a href="#" class="more-tags">More tags</a>-->
-<!--                        </div>-->
-
-                        <div class="popular-posts">
-                            <h3>Recent Articles</h3>
-                            <ul>
-                                <?php
-                                $articles = new WP_Query(array('post_type' => 'articles', 'orderby' => 'date', 'order' => 'DESC', 'posts_per_page' => 4));
-                                while ($articles->have_posts()) : $articles->the_post();
-                                    $thumb_img = wp_get_attachment_url(get_post_thumbnail_id(get_the_ID()));
-                                    ?>
-                                    <li>
-                                        <img src="<?php echo $thumb_img; ?>" alt="<?php echo get_the_title(); ?>">
-                                        <a href="<?php echo get_the_permalink(); ?>">
-                                            <p><?php echo get_the_title();//do_excerpt(get_the_title(), 25); ?></p>
-                                            <span class="date"><?php the_time('m d Y') ?></span>
-                                        </a>
-                                    </li>
-                                <?php
-                                endwhile;
-                                wp_reset_postdata();
-                                ?>
-                            </ul>
-                        </div>
-
-                        <div class="subscribe">
-                            <h3>Get Our Newsletter</h3>
-                            <?php echo do_shortcode('[mc4wp_form id="127"]'); ?>
-                        </div>
-
-                       <div class="exodus90">
-	<a href="https://exodus90.com/" target="_blank"><img src="http://thosecatholicmen.com/wp-content/uploads/2018/01/unnamed-3.png" alt="You are not a weak man. Join Exodus." /></a>
-</div>
-
-                    </aside>
-                </div>
-            </div>
-        </div>
+</div> <!-- end of row -->
+</div> <!-- end of container -->
     </div><!--/page-->
 </div>
 

@@ -113,20 +113,6 @@ get_header(); ?>
                     <div class="tab-4">
                         <aside id="sidebar">
 
-                            <!--Tag cloud-->
-<!--                            <div class="tag-cloud">-->
-<!--                                <h3>Tags</h3>-->
-<!--                                <div class="tags">-->
-<!--                                    --><?php
-//                                        $post_types_tags = post_type_tags( $post_type );
-//                                        foreach( $post_types_tags as $tag ) {
-//                                            echo '<a href="' . get_tag_link( $tag->term_id ). '">' . esc_html( $tag->name ) . '</a>';
-//                                        }
-//                                    ?>
-<!--                                </div>-->
-<!--                                <a href="#" class="more-tags">More tags</a>-->
-<!--                            </div>-->
-
                         <?php get_template_part('parts/sidebar-content'); ?>
 
 
