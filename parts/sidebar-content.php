@@ -1,11 +1,11 @@
 <?php // This is the sidebar on individual blog posts ?>
 
 <div class="itunes">
-	<a href="https://itunes.apple.com/us/podcast/those-catholic-men/id1340543443?mt=2"><img style="width:100%;" src="http://thosecatholicmen.com/wp-content/uploads/2018/01/itunes-retina.png" alt="Subscribe on itunes"></a>
+	<a href="https://itunes.apple.com/us/podcast/those-catholic-men/id1340543443?mt=2" onclick="dataLayer.push({'event': 'button1-click'});"><img style="width:100%;" src="http://thosecatholicmen.com/wp-content/uploads/2018/01/itunes-retina.png" alt="Subscribe on itunes"></a>
 </div>
 
 <div class="itunes">
-<a href='https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Imjtmx62jud7dkt7e2kx3wcwhpu?t%3DThoseCatholicMen.com%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16' rel='nofollow'>
+<a href='https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Imjtmx62jud7dkt7e2kx3wcwhpu?t%3DThoseCatholicMen.com%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16' rel='nofollow' onclick="dataLayer.push({'event': 'itunes-podcast-button'});">
     <img style="width:100%;" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
 </a>
 </div>
