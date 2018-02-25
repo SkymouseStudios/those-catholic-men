@@ -468,7 +468,6 @@ li.ui-timepicker-selected,
 	padding: 20px 15px;
 	text-align: center;
 	margin: 0 0 20px;
-	background: rgba(97, 97, 97, 0.7);
 	font-size: 14px;
 }
 
@@ -608,7 +607,7 @@ li.ui-timepicker-selected,
 .info-section .logo-big {
 	width: 591px;
 	height: 414px;
-	background-size: auto auto;
+	/*background-size: auto auto; ph disabled, it was making the logo weird. */
 }
 
 .social-intro .user-form h3 {
@@ -630,13 +629,11 @@ li.ui-timepicker-selected,
 	bottom: 0;
 	width: 50%;
 	content: '';
-	background: rgba(97, 97, 97, 0.7);
 	position: absolute;
 }
 
 .social-intro .holder .cols:before {
 	left: 50%;
-	background: rgba(43, 56, 68, 0.7);
 }
 
 .social-intro .holder .cols .user-form {
@@ -910,10 +907,10 @@ li.ui-timepicker-selected,
 	overflow: hidden;
 }
 
-.social-intro .user-form {
+/*.social-intro .user-form {
 	margin: 0 0 30px;
 	padding: 40px 30px 29px;
-}
+}*/
 
 .social-intro .user-form h3 {
 	font-size: 19px;
