@@ -159,41 +159,7 @@ get_header(); ?>
 </div><!--/page-->
 </div>
 
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript" src="https://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "69ca65be-f027-417b-b840-056839c5b999", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 
 <?php get_footer(); ?>
-
-
-
-<!--<h3>Related Videos</h3>-->
-<!---->
-<?php
-//$tags = wp_get_post_tags(get_the_ID());
-//
-//if ($tags) :
-//    $first_tag = $tags[0]->term_id;
-//
-//    $my_query = new WP_Query(array('post_type' => 'videos', 'tag__in' => array($first_tag), 'caller_get_posts' => 1, 'post__not_in' => array(get_the_ID()), 'posts_per_page' => 4));
-//    if ($my_query->have_posts()) :
-//        while ($my_query->have_posts()) : $my_query->the_post();
-//            $url = rwmb_meta('video_url', null, get_the_ID());
-//            $id_video = explode('/', $url);
-//            $id_video = end($id_video);
-//            ?>
-           <!-- <div class="video-preview">
-                <div class="preview-img">
-                    <a href="<?php //the_permalink(); ?>" title="<?php //the_title_attribute(); ?>"
-                       style="background-image: url(<?php //echo get_youtube_info($youtube_key, $id_video, 3); ?>);">
-                        <div class="play-btn"></div>
-                        <span class="video-time"><?php //echo covtime(get_youtube_info($youtube_key, $id_video, 2)); ?></span>
-                    </a>
-                </div>
-                <h4><a href="<?php //the_permalink(); ?>" title="<?php //echo get_the_title(); ?>"><?php// echo get_the_title(); ?></a></h4>
-            </div>-->
-<!--        --><?php
-//        endwhile;
-//    endif;
-//    wp_reset_query();
-//endif;
-//?>
