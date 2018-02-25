@@ -1750,12 +1750,6 @@
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/template-parts\/content.php",
 		"oF": 0
-		},
-	"\/those-catholic-men": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/those-catholic-men\/those-catholic-men",
-		"oF": 0
 		}
 	},
 "hooks": [
@@ -1767,7 +1761,7 @@
 	"displayValue": "tcm-main",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_brown",
-	"lastBuiltDate": 541234495
+	"lastBuiltDate": 541236051
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

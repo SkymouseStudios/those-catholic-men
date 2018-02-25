@@ -1,1 +1,165 @@
-.post-text p a{word-break:break-all}.gallery{margin-bottom:1.5em}.gallery-item{display:inline-block;text-align:center;vertical-align:top;width:100%}.gallery-columns-2 .gallery-item{max-width:50%}.gallery-columns-3 .gallery-item{max-width:33.33%}.gallery-columns-4 .gallery-item{max-width:25%}.gallery-columns-5 .gallery-item{max-width:20%}.gallery-columns-6 .gallery-item{max-width:16.66%}.gallery-columns-7 .gallery-item{max-width:14.28%}.gallery-columns-8 .gallery-item{max-width:12.5%}.gallery-columns-9 .gallery-item{max-width:11.11%}.gallery-caption{display:block}#donate-area{background:#2b3843;color:white;padding:1rem 1rem 1.5rem;clear:both;margin:3rem 0 1rem}#donate-area h3{font-size:1.25rem;color:white}#donate-area button{vertical-align:middle;margin-left:1rem}#donate-area .sc-checkout-form{display:none}#donate-area input[type="radio"]{opacity:1;display:inline-block;margin-left:1rem}#donate-area h3+input[type="radio"]{margin-left:0}#sidebar .subscribe{margin-bottom:2rem}#sidebar .subscribe form .form-group{margin-bottom:0}#sidebar h3{margin-bottom:1rem !important}.page-about #content>.content-holder{padding:0}.page-about .content-holder .content-holder{padding:1rem 3rem}.page-about .cover{min-height:360px;width:100%;padding:3rem;margin-bottom:1rem}.page-about .cover h1{margin-bottom:1rem}.page-about .cover blockquote{padding-left:2rem}.page-about .exodus-content{text-align:center}.page-about .download-buttons{margin:2rem 0 0}@media screen and (max-width: 480px){.page-about .cover{min-height:0;padding-left:2rem;padding-right:2rem}.page-about .cover blockquote{margin-left:-1rem}.page-about .content-holder .content-holder{padding-left:2rem;padding-right:2rem}}@media (min-width: 768px){.info-section .logo-big{width:591px;height:414px;background-size:100% auto}}
+/*
+Theme Name: Those Catholic Men
+Theme URI: http://86creative.com/
+Author: BigDrop
+Author URI: http://86creative.com/
+Description: 86 Creative
+Version: 1.2.1
+Text Domain: tcm
+*/
+
+.post-text p a {
+	word-break: break-all;
+}
+
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+
+.gallery {
+    margin-bottom: 1.5em;
+}
+
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+
+.gallery-caption {
+    display: block;
+}
+
+#donate-area {
+    background: #2b3843;
+    color: white;
+    padding: 1rem 1rem 1.5rem;
+    clear: both;
+    margin: 3rem 0 1rem;
+}
+
+#donate-area h3 {
+    font-size: 1.25rem;
+    color: white;
+}
+
+#donate-area button {
+    vertical-align: middle;
+    margin-left: 1rem;
+}
+
+#donate-area .sc-checkout-form {
+    display: none;
+}
+
+#donate-area input[type="radio"] {
+    opacity: 1;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+#donate-area h3 + input[type="radio"] {
+    margin-left: 0;
+}
+
+#sidebar .subscribe {
+    margin-bottom: 2rem;
+}
+
+#sidebar .subscribe form .form-group {
+    margin-bottom: 0;
+}
+
+#sidebar h3 {
+    margin-bottom: 1rem !important;
+}
+
+.page-about #content > .content-holder {
+    padding: 0;
+}
+
+.page-about .content-holder .content-holder {
+    padding: 1rem 3rem;
+}
+
+.page-about .cover {
+    min-height: 360px;
+    width: 100%;
+    padding: 3rem;
+    margin-bottom: 1rem;
+}
+
+.page-about .cover h1 {
+    margin-bottom: 1rem;
+}
+
+.page-about .cover blockquote {
+    padding-left: 2rem;
+}
+
+.page-about .exodus-content {
+    text-align: center;
+}
+
+.page-about .download-buttons {
+    margin: 2rem 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    .page-about .cover {
+        min-height: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .page-about .cover blockquote {
+        margin-left: -1rem;
+    }
+
+    .page-about .content-holder .content-holder {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+	.info-section .logo-big {
+	    width: 591px;
+	    height: 414px;
+	    background-size: 100% auto;
+	}
+}
