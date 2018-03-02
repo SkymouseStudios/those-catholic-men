@@ -18,10 +18,6 @@ get_header(); ?>
 
     $url = rwmb_meta('video_url', null, get_the_ID());
 
-//    Info site
-//    https://console.developers.google.com/project
-//    https://developers.google.com/youtube/v3/docs/videos/list
-
     $info = get_option('info_site_name');
     $youtube_key = $info['youtube_key'];
 
@@ -159,7 +155,7 @@ get_header(); ?>
 </div><!--/page-->
 </div>
 
-<script type="text/javascript" src="https://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "69ca65be-f027-417b-b840-056839c5b999", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 
 <?php get_footer(); ?>

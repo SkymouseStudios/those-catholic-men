@@ -7,7 +7,7 @@
 		"uuidString": "891CDF8B-463D-4DA1-816A-E3BFB7056FCD"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -427,6 +427,16 @@
 		"iS": 460881,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/bg-body.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"\/dist\/images\/cover-image-tech-book-2.jpg": {
+		"ft": 16384,
+		"iS": 284640,
+		"oA": 0,
+		"oAP": "\/those-catholic-men\/dist\/images\/cover-image-tech-book-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1705,7 +1715,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/style.css",
+		"oAP": "\/those-catholic-men\/style.css",
 		"oF": 3,
 		"oS": 3
 		},
@@ -1750,6 +1760,12 @@
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/template-parts\/content.php",
 		"oF": 0
+		},
+	"\/those-catholic-men": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/those-catholic-men\/those-catholic-men",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -1761,7 +1777,7 @@
 	"displayValue": "tcm-main",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_brown",
-	"lastBuiltDate": 541236051
+	"lastBuiltDate": 541646537
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
