@@ -5,6 +5,14 @@
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
 		"uuidString": "891CDF8B-463D-4DA1-816A-E3BFB7056FCD"
+		},
+	{
+		"name": "New \"Run Script\" Step",
+		"scriptSourceString": "rm -rf ..\/those-catholic-men\nmv those-catholic-men ..\nditto -c -k --sequesterRsrc --keepParent ..\/those-catholic-men ..\/those-catholic-men.zip",
+		"scriptType": 1,
+		"scriptUUIDString": "E546B929-F939-4A85-A752-D0047D3E5951",
+		"stepType": 2,
+		"uuidString": "E6D007B9-969D-473B-B65D-BAF391AE7D41"
 		}
 	],
 "creatorBuild": "26330",
@@ -1775,9 +1783,9 @@
 "projectAttributes": {
 	"creationDate": 541231663,
 	"displayValue": "tcm-main",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown",
-	"lastBuiltDate": 541646537
+	"lastBuiltDate": 542411509
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
