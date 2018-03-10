@@ -19,11 +19,9 @@ get_header(); ?>
                 </div>
                 <div class="content-holder">
                     <?php echo get_the_content(); ?>
-                    <div class="exodus-content">
-                        <div class="download-buttons">
-                            <a href="/wp-content/uploads/TCM-Manifestum.pdf" class="btn btn-blue btn-download">Read the manifestum</a>
-                        </div>
-                    </div>
+                </div>
+                <div class="contribute-form">
+                     <?php echo do_shortcode('[mc4wp_form id="1878"]'); ?>
                 </div>
             </div>
         </div>

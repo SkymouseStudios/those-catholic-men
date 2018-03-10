@@ -17,6 +17,13 @@
 	],
 "creatorBuild": "26330",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/those-catholic-men\/.gitignore",
+		"oF": 0
+		},
 	"\/404.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -37,6 +44,24 @@
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/author.php",
 		"oF": 0
+		},
+	"\/Changelog.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/those-catholic-men\/Changelog.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/comments.php": {
 		"cB": 0,
@@ -445,6 +470,16 @@
 		"iS": 284640,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/cover-image-tech-book-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"\/dist\/images\/cover-image-tech-book.jpg": {
+		"ft": 16384,
+		"iS": 199862,
+		"oA": 0,
+		"oAP": "\/those-catholic-men\/dist\/images\/cover-image-tech-book.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1785,7 +1820,7 @@
 	"displayValue": "tcm-main",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown",
-	"lastBuiltDate": 542411509
+	"lastBuiltDate": 542415107
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
