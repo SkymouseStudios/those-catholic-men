@@ -19,10 +19,11 @@ get_header(); ?>
                 </div>
                 <div class="content-holder">
                     <?php echo get_the_content(); ?>
+                    <div class="contribute-form">
+                        <?php echo do_shortcode('[contact-form-7 id="1990" title="Contributor Form"]'); ?>
+                    </div>
                 </div>
-                <div class="contribute-form">
-                     <?php echo do_shortcode('[mc4wp_form id="1878"]'); ?>
-                </div>
+                
             </div>
         </div>
     </div>

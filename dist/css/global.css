@@ -90,7 +90,26 @@
 	margin: 0 10%;
 }
 
+/*
+Contribute Contact form
+*/
 
+#wpcf7-f1990-o1 input[type="file"] {
+	opacity: 1;
+}
+
+#wpcf7-f1990-o1 input[type="checkbox"] {
+	border:2px solid grey;
+	border-radius:3px;
+    padding:4px;
+    background-color:white;
+    color: grey;
+    opacity: 1;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
 
 /* ------------  Styles patrick added ------------  */
 

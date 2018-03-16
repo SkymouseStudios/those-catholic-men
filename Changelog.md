@@ -1,5 +1,8 @@
 # Changelog
 
+### 03/15/17 - Update 1.2.5
+
+- Added some Form styles for the contribute contact form
 
 ### 03/10/17 - Update 1.2.4
 
