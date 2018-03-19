@@ -83,20 +83,6 @@ get_header(); ?>
                                             </div>
                                         </div>
 
-                                        <div class="post-share">
-                                            <div class="print-title">
-                                                <?php if(function_exists('wp_print')) { print_link(); } ?>
-                                            </div>
-
-                                            <span class="share-title">Share it:</span>
-                                            <ul class="social-links">
-                                                <li><span class="st_facebook_large icon-facebook" displayText="Facebook"></span></li>
-                                                <li><span class="st_twitter_large icon-twitter-bird" displayText="Tweet"></span></li>
-                                                <li><span class="st_googleplus_large icon-gplus" displayText="Google +"></span></li>
-                                                <li><span class='st_email_large icon-mail-alt' displayText='Email'></span></li>
-                                            </ul>
-                                        </div>
-
                                         <?php
                                             if (comments_open()) {
                                                 comments_template();
@@ -160,8 +146,5 @@ get_header(); ?>
 
     </div><!--/page-->
 </div>
-
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({publisher: "69ca65be-f027-417b-b840-056839c5b999", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 
 <?php get_footer(); ?>
