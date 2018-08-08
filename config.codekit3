@@ -15,7 +15,7 @@
 		"uuidString": "E6D007B9-969D-473B-B65D-BAF391AE7D41"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -76,6 +76,16 @@
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/create-event.php",
 		"oF": 0
+		},
+	"\/dist\/css\/about.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/those-catholic-men\/dist\/css\/about.min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/dist\/css\/article.css": {
 		"aP": 1,
@@ -426,6 +436,7 @@
 	"\/dist\/images\/article-img.jpg": {
 		"ft": 16384,
 		"iS": 61136,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/article-img.jpg",
 		"oF": 0,
@@ -458,6 +469,7 @@
 	"\/dist\/images\/bg-body.jpg": {
 		"ft": 16384,
 		"iS": 460881,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/bg-body.jpg",
 		"oF": 0,
@@ -468,6 +480,7 @@
 	"\/dist\/images\/cover-image-tech-book-2.jpg": {
 		"ft": 16384,
 		"iS": 284640,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/cover-image-tech-book-2.jpg",
 		"oF": 0,
@@ -478,6 +491,7 @@
 	"\/dist\/images\/cover-image-tech-book.jpg": {
 		"ft": 16384,
 		"iS": 199862,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/cover-image-tech-book.jpg",
 		"oF": 0,
@@ -499,6 +513,7 @@
 	"\/dist\/images\/error-bg.jpg": {
 		"ft": 16384,
 		"iS": 264376,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/error-bg.jpg",
 		"oF": 0,
@@ -509,6 +524,7 @@
 	"\/dist\/images\/event-img-1.jpg": {
 		"ft": 16384,
 		"iS": 179432,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/event-img-1.jpg",
 		"oF": 0,
@@ -519,6 +535,7 @@
 	"\/dist\/images\/event-img-2.jpg": {
 		"ft": 16384,
 		"iS": 94970,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/event-img-2.jpg",
 		"oF": 0,
@@ -529,6 +546,7 @@
 	"\/dist\/images\/event-img-3.jpg": {
 		"ft": 16384,
 		"iS": 143842,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/event-img-3.jpg",
 		"oF": 0,
@@ -539,6 +557,7 @@
 	"\/dist\/images\/facebook-plugin.jpg": {
 		"ft": 16384,
 		"iS": 151577,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/facebook-plugin.jpg",
 		"oF": 0,
@@ -549,6 +568,7 @@
 	"\/dist\/images\/facebook-plugin2.jpg": {
 		"ft": 16384,
 		"iS": 33841,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/facebook-plugin2.jpg",
 		"oF": 0,
@@ -731,6 +751,7 @@
 	"\/dist\/images\/intro-donate.jpg": {
 		"ft": 16384,
 		"iS": 108535,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/intro-donate.jpg",
 		"oF": 0,
@@ -741,6 +762,7 @@
 	"\/dist\/images\/intro-event.jpg": {
 		"ft": 16384,
 		"iS": 235035,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/intro-event.jpg",
 		"oF": 0,
@@ -751,6 +773,7 @@
 	"\/dist\/images\/intro-post.jpg": {
 		"ft": 16384,
 		"iS": 207000,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/intro-post.jpg",
 		"oF": 0,
@@ -761,6 +784,7 @@
 	"\/dist\/images\/intro-social.jpg": {
 		"ft": 16384,
 		"iS": 236018,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/intro-social.jpg",
 		"oF": 0,
@@ -771,6 +795,7 @@
 	"\/dist\/images\/latest-post-1.jpg": {
 		"ft": 16384,
 		"iS": 160265,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/latest-post-1.jpg",
 		"oF": 0,
@@ -781,6 +806,7 @@
 	"\/dist\/images\/latest-post-2.jpg": {
 		"ft": 16384,
 		"iS": 154294,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/latest-post-2.jpg",
 		"oF": 0,
@@ -791,6 +817,7 @@
 	"\/dist\/images\/latest-post-3.jpg": {
 		"ft": 16384,
 		"iS": 51657,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/latest-post-3.jpg",
 		"oF": 0,
@@ -1392,6 +1419,7 @@
 	"\/dist\/images\/video-preview-1.jpg": {
 		"ft": 16384,
 		"iS": 52391,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/dist\/images\/video-preview-1.jpg",
 		"oF": 0,
@@ -1578,6 +1606,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/those-catholic-men\/page-templates\/authors.php",
+		"oF": 0
+		},
+	"\/page-templates\/blank.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/those-catholic-men\/page-templates\/blank.php",
 		"oF": 0
 		},
 	"\/page-templates\/contact-us.php": {
@@ -1820,7 +1855,8 @@
 	"displayValue": "tcm-main",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown",
-	"lastBuiltDate": 543171010
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 555453674
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3623,6 +3659,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 85
 		},
 	"languageDefaultsJS": {

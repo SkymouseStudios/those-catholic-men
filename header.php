@@ -48,6 +48,14 @@
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRSF924"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
+
+<?php 
+    if ( is_page('Donate') ) { 
+        $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
+    } else { 
+
+    } ?>
+
 <div class="wrapper">
-    <div class="content-row">
+    <div class="content-row" style="background-size: cover; background-repeat: no-repeat; background-image: url('<?php echo $featured_img_url; ?>');">
         <div class="page">

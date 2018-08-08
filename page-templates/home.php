@@ -162,4 +162,9 @@ get_header(); ?>
 </div> <!-- end content row -->
 </div><!--/page-->
 
+<!--FOOTER-->
+<div class="exodus90">
+    <a id="exodus90FooterBanner" href="https://exodus90.com/" target="_blank"><img style="width:100%;" src="https://thosecatholicmen.com/wp-content/uploads/2018/01/unnamed-2.png" alt="You are not a weak man. Join Exodus." /></a>
+</div>
+
 <?php get_footer(); ?>
