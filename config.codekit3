@@ -477,23 +477,12 @@
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/cover-image-tech-book-2.jpg": {
+	"\/dist\/images\/ebook-image.jpg": {
 		"ft": 16384,
-		"iS": 284640,
+		"iS": 202645,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/cover-image-tech-book-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/dist\/images\/cover-image-tech-book.jpg": {
-		"ft": 16384,
-		"iS": 199862,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/cover-image-tech-book.jpg",
+		"oAP": "\/those-catholic-men\/dist\/images\/ebook-image.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1854,9 +1843,9 @@
 	"creationDate": 541231663,
 	"displayValue": "tcm-main",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_brown",
+	"iconImageName": "\/dist\/images\/logo-color.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 555453674
+	"lastBuiltDate": 558310403
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

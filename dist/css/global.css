@@ -13,7 +13,7 @@
 
 #promo {
 	text-align: center;
-	background-image: url('../images/cover-image-tech-book.jpg');
+	background-image: url('../images/ebook-image.jpg');
 	background-size: cover;
 	background-position: center center;
 	height: 300px;
@@ -163,4 +163,92 @@ div.podcast {
      top:-110px;
      right:5px;
   }  
+}
+
+/* Exodus 90 Ads */
+
+
+.exodus90 {
+	text-align: center;
+	padding: 40px 0 60px 0;
+	background-image: url(https://thosecatholicmen.com/wp-content/uploads/2018/09/mountain-man-christmas.jpg);
+	background-position: 30% center;	
+	background-size: cover;
+}
+
+.exodus90 .green {
+	color: rgb(11, 216, 4);
+}
+
+.exodus90 .red {
+	color: rgb(216, 0, 0);
+}
+
+.exodus90 a {
+	display: block;
+}
+
+.exodus90_hz {
+	height: 700px;
+	padding: 20px 15px;
+	background-position: 25% bottom;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-color: rgb(254, 255, 252);
+}
+
+.exodus90_hz h1 {
+	font-size: 1.6em;
+	line-height: 1.5em;
+}
+
+.exodus90_hz h2 {
+	font-size: 1.2em;
+	line-height: 1.2em	
+}
+
+.exodus90 h1, h2 {
+	font-family: "Merriweather";
+}
+
+.exodus90 h1 {
+	text-shadow: 1px 1px 10px white;
+	color: #EF643B;
+	margin-bottom: 0px;
+	font-weight: 800;
+}
+
+.exodus90 img {
+	width: 150px;
+}
+
+@keyframes buttonhover {
+	0% {
+    	transform: scale(1.0);
+    	-webkit-transform: scale(1.0);
+	}
+	50% {
+    	transform: scale(1.2);
+    	-webkit-transform: scale(1.2);
+	}
+	100% {
+    	transform: scale(1.0);
+    	-webkit-transform: scale(1.0);
+	}
+}
+
+.video-button {
+	margin-top: 20px;
+	font-family: "Merriweather";
+	padding: 10px;
+	background-color: #EF643B;
+	color: white;
+	animation: buttonhover 3s ease-in-out infinite;
+	display: inline-block;
+	transition: 0.5s;
+}
+
+.video-button:hover {
+	background-color: #e88267;
+	transition: 0.5s;
 }
