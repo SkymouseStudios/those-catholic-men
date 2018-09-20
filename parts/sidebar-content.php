@@ -45,8 +45,8 @@
  <div class="exodus90 exodus90_hz">
 	<a id="exodus90FooterBanner" href="https://exodus90.com/?utm_source=tcm_website&utm_medium=banner&utm_campaign=sidebar_banner" target="_blank">
        <img src="https://thosecatholicmen.com/wp-content/uploads/2018/09/logo-exodus-white-small-2.png" alt="Exodus 90 Logo">
-       <h1>The Church Needs Men Who Are Free.</h1>
-       <h2>September 26th marks 90 days to <span class="red">C</span><span class="green">h</span><span class="red">r</span><span class="green">i</span><span class="red">s</span><span class="green">t</span><span class="red">m</span><span class="green">a</span><span class="red">s</span>.</h2>
+       <h1>The Church Needs<br> Men Who Are Free.</h1>
+       <h2>September 26th marks<br> 90 days to <span class="red">C</span><span class="green">h</span><span class="red">r</span><span class="green">i</span><span class="red">s</span><span class="green">t</span><span class="red">m</span><span class="green">a</span><span class="red">s</span>.</h2>
        <div class="video-button">Watch the Video</div>
     </a>
 </div>

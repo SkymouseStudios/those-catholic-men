@@ -24,6 +24,7 @@
 
     <link rel="icon" href="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2018/01/those-catholic-men-icon-150x150.png" sizes="32x32">
     <link rel="icon" href="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2018/01/those-catholic-men-icon.png" sizes="192x192">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
