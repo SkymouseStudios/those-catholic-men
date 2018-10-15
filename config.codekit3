@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -8,44 +8,44 @@
 		},
 	{
 		"name": "New \"Run Script\" Step",
-		"scriptSourceString": "rm -rf ..\/those-catholic-men\nmv those-catholic-men ..\nditto -c -k --sequesterRsrc --keepParent ..\/those-catholic-men ..\/those-catholic-men.zip",
+		"scriptSourceString": "rm -rf ../those-catholic-men\nmv those-catholic-men ..\nditto -c -k --sequesterRsrc --keepParent ../those-catholic-men ../those-catholic-men.zip",
 		"scriptType": 1,
 		"scriptUUIDString": "E546B929-F939-4A85-A752-D0047D3E5951",
 		"stepType": 2,
 		"uuidString": "E6D007B9-969D-473B-B65D-BAF391AE7D41"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28901",
 "files": {
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/.gitignore",
+		"oAP": "/those-catholic-men/.gitignore",
 		"oF": 0
 		},
-	"\/404.php": {
+	"/404.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/404.php",
+		"oAP": "/those-catholic-men/404.php",
 		"oF": 0
 		},
-	"\/archive.php": {
+	"/archive.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/archive.php",
+		"oAP": "/those-catholic-men/archive.php",
 		"oF": 0
 		},
-	"\/author.php": {
+	"/author.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/author.php",
+		"oAP": "/those-catholic-men/author.php",
 		"oF": 0
 		},
-	"\/Changelog.md": {
+	"/Changelog.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -54,7 +54,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/Changelog.html",
+		"oAP": "/those-catholic-men/Changelog.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -63,1646 +63,1657 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/comments.php": {
+	"/comments.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/comments.php",
+		"oAP": "/those-catholic-men/comments.php",
 		"oF": 0
 		},
-	"\/create-event.php": {
+	"/create-event.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/create-event.php",
+		"oAP": "/those-catholic-men/create-event.php",
 		"oF": 0
 		},
-	"\/dist\/css\/about.css": {
+	"/dist/css/about.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/about.min.css",
+		"oAP": "/those-catholic-men/dist/css/about.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/css\/article.css": {
+	"/dist/css/article.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/article.min.css",
+		"oAP": "/those-catholic-men/dist/css/article.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/css\/articles.css": {
+	"/dist/css/articles.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/articles.min.css",
+		"oAP": "/those-catholic-men/dist/css/articles.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/css\/authors.css": {
+	"/dist/css/authors.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/authors.min.css",
+		"oAP": "/those-catholic-men/dist/css/authors.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/css\/coming-soon.css": {
+	"/dist/css/coming-soon.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/coming-soon.min.css",
+		"oAP": "/those-catholic-men/dist/css/coming-soon.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/css\/contacts.css": {
+	"/dist/css/contacts.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/contacts.min.css",
+		"oAP": "/those-catholic-men/dist/css/contacts.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/css\/donate.css": {
+	"/dist/css/donate.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/donate.min.css",
+		"oAP": "/those-catholic-men/dist/css/donate.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/css\/error-page.css": {
+	"/dist/css/error-page.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/error-page.min.css",
+		"oAP": "/those-catholic-men/dist/css/error-page.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/css\/events.css": {
+	"/dist/css/events.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/events.min.css",
+		"oAP": "/those-catholic-men/dist/css/events.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/css\/exodus.css": {
+	"/dist/css/exodus.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/exodus.min.css",
+		"oAP": "/those-catholic-men/dist/css/exodus.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/css\/global.css": {
+	"/dist/css/global.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/global.min.css",
+		"oAP": "/those-catholic-men/dist/css/global.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/css\/home.css": {
+	"/dist/css/home.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/home.min.css",
+		"oAP": "/those-catholic-men/dist/css/home.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/css\/results.css": {
+	"/dist/css/results.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/results.min.css",
+		"oAP": "/those-catholic-men/dist/css/results.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/css\/videos.css": {
+	"/dist/css/videos.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/css\/videos.min.css",
+		"oAP": "/those-catholic-men/dist/css/videos.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/fonts\/fontello.eot": {
+	"/dist/fonts/fontello.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/fontello.eot",
+		"oAP": "/those-catholic-men/dist/fonts/fontello.eot",
 		"oF": 0
 		},
-	"\/dist\/fonts\/fontello.svg": {
+	"/dist/fonts/fontello.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/fontello.svg",
+		"oAP": "/those-catholic-men/dist/fonts/fontello.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/fonts\/fontello.ttf": {
+	"/dist/fonts/fontello.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/fontello.ttf",
+		"oAP": "/those-catholic-men/dist/fonts/fontello.ttf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/fontello.woff": {
+	"/dist/fonts/fontello.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/fontello.woff",
+		"oAP": "/those-catholic-men/dist/fonts/fontello.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/gothaprolig-webfont.eot": {
+	"/dist/fonts/gothaprolig-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/gothaprolig-webfont.eot",
+		"oAP": "/those-catholic-men/dist/fonts/gothaprolig-webfont.eot",
 		"oF": 0
 		},
-	"\/dist\/fonts\/gothaprolig-webfont.svg": {
+	"/dist/fonts/gothaprolig-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/gothaprolig-webfont.svg",
+		"oAP": "/those-catholic-men/dist/fonts/gothaprolig-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/fonts\/gothaprolig-webfont.ttf": {
+	"/dist/fonts/gothaprolig-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/gothaprolig-webfont.ttf",
+		"oAP": "/those-catholic-men/dist/fonts/gothaprolig-webfont.ttf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/gothaprolig-webfont.woff": {
+	"/dist/fonts/gothaprolig-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/gothaprolig-webfont.woff",
+		"oAP": "/those-catholic-men/dist/fonts/gothaprolig-webfont.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/gothaprolig-webfont.woff2": {
+	"/dist/fonts/gothaprolig-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/gothaprolig-webfont.woff2",
+		"oAP": "/those-catholic-men/dist/fonts/gothaprolig-webfont.woff2",
 		"oF": 0
 		},
-	"\/dist\/fonts\/gothapromed-webfont.eot": {
+	"/dist/fonts/gothapromed-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/gothapromed-webfont.eot",
+		"oAP": "/those-catholic-men/dist/fonts/gothapromed-webfont.eot",
 		"oF": 0
 		},
-	"\/dist\/fonts\/gothapromed-webfont.svg": {
+	"/dist/fonts/gothapromed-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/gothapromed-webfont.svg",
+		"oAP": "/those-catholic-men/dist/fonts/gothapromed-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/fonts\/gothapromed-webfont.ttf": {
+	"/dist/fonts/gothapromed-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/gothapromed-webfont.ttf",
+		"oAP": "/those-catholic-men/dist/fonts/gothapromed-webfont.ttf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/gothapromed-webfont.woff": {
+	"/dist/fonts/gothapromed-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/gothapromed-webfont.woff",
+		"oAP": "/those-catholic-men/dist/fonts/gothapromed-webfont.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/gothapromed-webfont.woff2": {
+	"/dist/fonts/gothapromed-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/gothapromed-webfont.woff2",
+		"oAP": "/those-catholic-men/dist/fonts/gothapromed-webfont.woff2",
 		"oF": 0
 		},
-	"\/dist\/fonts\/goudystm-italic-webfont.eot": {
+	"/dist/fonts/goudystm-italic-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/goudystm-italic-webfont.eot",
+		"oAP": "/those-catholic-men/dist/fonts/goudystm-italic-webfont.eot",
 		"oF": 0
 		},
-	"\/dist\/fonts\/goudystm-italic-webfont.svg": {
+	"/dist/fonts/goudystm-italic-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/goudystm-italic-webfont.svg",
+		"oAP": "/those-catholic-men/dist/fonts/goudystm-italic-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/fonts\/goudystm-italic-webfont.ttf": {
+	"/dist/fonts/goudystm-italic-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/goudystm-italic-webfont.ttf",
+		"oAP": "/those-catholic-men/dist/fonts/goudystm-italic-webfont.ttf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/goudystm-italic-webfont.woff": {
+	"/dist/fonts/goudystm-italic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/goudystm-italic-webfont.woff",
+		"oAP": "/those-catholic-men/dist/fonts/goudystm-italic-webfont.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/goudystm-italic-webfont.woff2": {
+	"/dist/fonts/goudystm-italic-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/goudystm-italic-webfont.woff2",
+		"oAP": "/those-catholic-men/dist/fonts/goudystm-italic-webfont.woff2",
 		"oF": 0
 		},
-	"\/dist\/fonts\/goudystm-webfont.eot": {
+	"/dist/fonts/goudystm-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/goudystm-webfont.eot",
+		"oAP": "/those-catholic-men/dist/fonts/goudystm-webfont.eot",
 		"oF": 0
 		},
-	"\/dist\/fonts\/goudystm-webfont.svg": {
+	"/dist/fonts/goudystm-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/goudystm-webfont.svg",
+		"oAP": "/those-catholic-men/dist/fonts/goudystm-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/fonts\/goudystm-webfont.ttf": {
+	"/dist/fonts/goudystm-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/goudystm-webfont.ttf",
+		"oAP": "/those-catholic-men/dist/fonts/goudystm-webfont.ttf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/goudystm-webfont.woff": {
+	"/dist/fonts/goudystm-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/goudystm-webfont.woff",
+		"oAP": "/those-catholic-men/dist/fonts/goudystm-webfont.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/goudystm-webfont.woff2": {
+	"/dist/fonts/goudystm-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/fonts\/goudystm-webfont.woff2",
+		"oAP": "/those-catholic-men/dist/fonts/goudystm-webfont.woff2",
 		"oF": 0
 		},
-	"\/dist\/images\/arrow-back.png": {
+	"/dist/images/ad-90-days-to-christmas-horizontal-05.jpg": {
+		"ft": 16384,
+		"iS": 2390124,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/those-catholic-men/dist/images/ad-90-days-to-christmas-horizontal-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"/dist/images/arrow-back.png": {
 		"ft": 32768,
 		"iS": 394,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/arrow-back.png",
+		"oAP": "/those-catholic-men/dist/images/arrow-back.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/arrow-down-white.png": {
+	"/dist/images/arrow-down-white.png": {
 		"ft": 32768,
 		"iS": 108,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/arrow-down-white.png",
+		"oAP": "/those-catholic-men/dist/images/arrow-down-white.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/arrow-left.png": {
+	"/dist/images/arrow-left.png": {
 		"ft": 32768,
 		"iS": 157,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/arrow-left.png",
+		"oAP": "/those-catholic-men/dist/images/arrow-left.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/article-img.jpg": {
+	"/dist/images/article-img.jpg": {
 		"ft": 16384,
 		"iS": 61136,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/article-img.jpg",
+		"oAP": "/those-catholic-men/dist/images/article-img.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/avatar.png": {
+	"/dist/images/avatar.png": {
 		"ft": 32768,
 		"iS": 504,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/avatar.png",
+		"oAP": "/those-catholic-men/dist/images/avatar.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/bg-body-mob.png": {
+	"/dist/images/bg-body-mob.png": {
 		"ft": 32768,
 		"iS": 138719,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/bg-body-mob.png",
+		"oAP": "/those-catholic-men/dist/images/bg-body-mob.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/bg-body.jpg": {
+	"/dist/images/bg-body.jpg": {
 		"ft": 16384,
 		"iS": 460881,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/bg-body.jpg",
+		"oAP": "/those-catholic-men/dist/images/bg-body.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/ebook-image.jpg": {
+	"/dist/images/ebook-image.jpg": {
 		"ft": 16384,
 		"iS": 202645,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/ebook-image.jpg",
+		"oAP": "/those-catholic-men/dist/images/ebook-image.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/ellipse-sm.png": {
+	"/dist/images/ellipse-sm.png": {
 		"ft": 32768,
 		"iS": 117,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/ellipse-sm.png",
+		"oAP": "/those-catholic-men/dist/images/ellipse-sm.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/error-bg.jpg": {
+	"/dist/images/error-bg.jpg": {
 		"ft": 16384,
 		"iS": 264376,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/error-bg.jpg",
+		"oAP": "/those-catholic-men/dist/images/error-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/event-img-1.jpg": {
+	"/dist/images/event-img-1.jpg": {
 		"ft": 16384,
 		"iS": 179432,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/event-img-1.jpg",
+		"oAP": "/those-catholic-men/dist/images/event-img-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/event-img-2.jpg": {
+	"/dist/images/event-img-2.jpg": {
 		"ft": 16384,
 		"iS": 94970,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/event-img-2.jpg",
+		"oAP": "/those-catholic-men/dist/images/event-img-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/event-img-3.jpg": {
+	"/dist/images/event-img-3.jpg": {
 		"ft": 16384,
 		"iS": 143842,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/event-img-3.jpg",
+		"oAP": "/those-catholic-men/dist/images/event-img-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/facebook-plugin.jpg": {
+	"/dist/images/facebook-plugin.jpg": {
 		"ft": 16384,
 		"iS": 151577,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/facebook-plugin.jpg",
+		"oAP": "/those-catholic-men/dist/images/facebook-plugin.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/facebook-plugin2.jpg": {
+	"/dist/images/facebook-plugin2.jpg": {
 		"ft": 16384,
 		"iS": 33841,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/facebook-plugin2.jpg",
+		"oAP": "/those-catholic-men/dist/images/facebook-plugin2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/favicon.ico": {
+	"/dist/images/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/favicon.ico",
+		"oAP": "/those-catholic-men/dist/images/favicon.ico",
 		"oF": 0
 		},
-	"\/dist\/images\/footer-logo.png": {
+	"/dist/images/footer-logo.png": {
 		"ft": 32768,
 		"iS": 13418,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/footer-logo.png",
+		"oAP": "/those-catholic-men/dist/images/footer-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/ico-written.png": {
+	"/dist/images/ico-written.png": {
 		"ft": 32768,
 		"iS": 459,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/ico-written.png",
+		"oAP": "/those-catholic-men/dist/images/ico-written.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/icon-avatar.png": {
+	"/dist/images/icon-avatar.png": {
 		"ft": 32768,
 		"iS": 606,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/icon-avatar.png",
+		"oAP": "/those-catholic-men/dist/images/icon-avatar.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/icon-calendar.png": {
+	"/dist/images/icon-calendar.png": {
 		"ft": 32768,
 		"iS": 484,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/icon-calendar.png",
+		"oAP": "/those-catholic-men/dist/images/icon-calendar.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/icon-close.png": {
+	"/dist/images/icon-close.png": {
 		"ft": 32768,
 		"iS": 207,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/icon-close.png",
+		"oAP": "/those-catholic-men/dist/images/icon-close.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/icon-envelope.png": {
+	"/dist/images/icon-envelope.png": {
 		"ft": 32768,
 		"iS": 524,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/icon-envelope.png",
+		"oAP": "/those-catholic-men/dist/images/icon-envelope.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/icon-image.png": {
+	"/dist/images/icon-image.png": {
 		"ft": 32768,
 		"iS": 418,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/icon-image.png",
+		"oAP": "/those-catholic-men/dist/images/icon-image.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/icon-like.png": {
+	"/dist/images/icon-like.png": {
 		"ft": 32768,
 		"iS": 595,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/icon-like.png",
+		"oAP": "/those-catholic-men/dist/images/icon-like.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/icon-location.png": {
+	"/dist/images/icon-location.png": {
 		"ft": 32768,
 		"iS": 575,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/icon-location.png",
+		"oAP": "/those-catholic-men/dist/images/icon-location.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/icon-pdf-book.png": {
+	"/dist/images/icon-pdf-book.png": {
 		"ft": 32768,
 		"iS": 673,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/icon-pdf-book.png",
+		"oAP": "/those-catholic-men/dist/images/icon-pdf-book.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/icon-print.png": {
+	"/dist/images/icon-print.png": {
 		"ft": 32768,
 		"iS": 643,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/icon-print.png",
+		"oAP": "/those-catholic-men/dist/images/icon-print.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/icon-quote.png": {
+	"/dist/images/icon-quote.png": {
 		"ft": 32768,
 		"iS": 259,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/icon-quote.png",
+		"oAP": "/those-catholic-men/dist/images/icon-quote.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/icon-time.png": {
+	"/dist/images/icon-time.png": {
 		"ft": 32768,
 		"iS": 358,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/icon-time.png",
+		"oAP": "/those-catholic-men/dist/images/icon-time.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/icon-write-white.png": {
+	"/dist/images/icon-write-white.png": {
 		"ft": 32768,
 		"iS": 279,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/icon-write-white.png",
+		"oAP": "/those-catholic-men/dist/images/icon-write-white.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/icon-write.png": {
+	"/dist/images/icon-write.png": {
 		"ft": 32768,
 		"iS": 459,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/icon-write.png",
+		"oAP": "/those-catholic-men/dist/images/icon-write.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/intro-donate.jpg": {
+	"/dist/images/intro-donate.jpg": {
 		"ft": 16384,
 		"iS": 108535,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/intro-donate.jpg",
+		"oAP": "/those-catholic-men/dist/images/intro-donate.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/intro-event.jpg": {
+	"/dist/images/intro-event.jpg": {
 		"ft": 16384,
 		"iS": 235035,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/intro-event.jpg",
+		"oAP": "/those-catholic-men/dist/images/intro-event.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/intro-post.jpg": {
+	"/dist/images/intro-post.jpg": {
 		"ft": 16384,
 		"iS": 207000,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/intro-post.jpg",
+		"oAP": "/those-catholic-men/dist/images/intro-post.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/intro-social.jpg": {
+	"/dist/images/intro-social.jpg": {
 		"ft": 16384,
 		"iS": 236018,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/intro-social.jpg",
+		"oAP": "/those-catholic-men/dist/images/intro-social.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/latest-post-1.jpg": {
+	"/dist/images/latest-post-1.jpg": {
 		"ft": 16384,
 		"iS": 160265,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/latest-post-1.jpg",
+		"oAP": "/those-catholic-men/dist/images/latest-post-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/latest-post-2.jpg": {
+	"/dist/images/latest-post-2.jpg": {
 		"ft": 16384,
 		"iS": 154294,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/latest-post-2.jpg",
+		"oAP": "/those-catholic-men/dist/images/latest-post-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/latest-post-3.jpg": {
+	"/dist/images/latest-post-3.jpg": {
 		"ft": 16384,
 		"iS": 51657,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/latest-post-3.jpg",
+		"oAP": "/those-catholic-men/dist/images/latest-post-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/images\/logo-big.png": {
+	"/dist/images/logo-big.png": {
 		"ft": 32768,
 		"iS": 40588,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/logo-big.png",
+		"oAP": "/those-catholic-men/dist/images/logo-big.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/logo-color.png": {
+	"/dist/images/logo-color.png": {
 		"ft": 32768,
 		"iS": 39353,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/logo-color.png",
+		"oAP": "/those-catholic-men/dist/images/logo-color.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/logo.png": {
+	"/dist/images/logo.png": {
 		"ft": 32768,
 		"iS": 13557,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/logo.png",
+		"oAP": "/those-catholic-men/dist/images/logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/map-empty.png": {
+	"/dist/images/map-empty.png": {
 		"ft": 32768,
 		"iS": 175,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/map-empty.png",
+		"oAP": "/those-catholic-men/dist/images/map-empty.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/map\/1.svg": {
+	"/dist/images/map/1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/1.svg",
+		"oAP": "/those-catholic-men/dist/images/map/1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/10.svg": {
+	"/dist/images/map/10.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/10.svg",
+		"oAP": "/those-catholic-men/dist/images/map/10.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/11.svg": {
+	"/dist/images/map/11.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/11.svg",
+		"oAP": "/those-catholic-men/dist/images/map/11.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/12.svg": {
+	"/dist/images/map/12.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/12.svg",
+		"oAP": "/those-catholic-men/dist/images/map/12.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/13.svg": {
+	"/dist/images/map/13.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/13.svg",
+		"oAP": "/those-catholic-men/dist/images/map/13.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/14.svg": {
+	"/dist/images/map/14.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/14.svg",
+		"oAP": "/those-catholic-men/dist/images/map/14.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/15.svg": {
+	"/dist/images/map/15.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/15.svg",
+		"oAP": "/those-catholic-men/dist/images/map/15.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/16.svg": {
+	"/dist/images/map/16.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/16.svg",
+		"oAP": "/those-catholic-men/dist/images/map/16.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/17.svg": {
+	"/dist/images/map/17.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/17.svg",
+		"oAP": "/those-catholic-men/dist/images/map/17.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/18.svg": {
+	"/dist/images/map/18.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/18.svg",
+		"oAP": "/those-catholic-men/dist/images/map/18.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/19.svg": {
+	"/dist/images/map/19.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/19.svg",
+		"oAP": "/those-catholic-men/dist/images/map/19.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/2.svg": {
+	"/dist/images/map/2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/2.svg",
+		"oAP": "/those-catholic-men/dist/images/map/2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/20.svg": {
+	"/dist/images/map/20.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/20.svg",
+		"oAP": "/those-catholic-men/dist/images/map/20.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/21.svg": {
+	"/dist/images/map/21.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/21.svg",
+		"oAP": "/those-catholic-men/dist/images/map/21.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/22.svg": {
+	"/dist/images/map/22.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/22.svg",
+		"oAP": "/those-catholic-men/dist/images/map/22.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/23.svg": {
+	"/dist/images/map/23.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/23.svg",
+		"oAP": "/those-catholic-men/dist/images/map/23.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/24.svg": {
+	"/dist/images/map/24.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/24.svg",
+		"oAP": "/those-catholic-men/dist/images/map/24.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/25.svg": {
+	"/dist/images/map/25.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/25.svg",
+		"oAP": "/those-catholic-men/dist/images/map/25.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/26.svg": {
+	"/dist/images/map/26.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/26.svg",
+		"oAP": "/those-catholic-men/dist/images/map/26.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/27.svg": {
+	"/dist/images/map/27.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/27.svg",
+		"oAP": "/those-catholic-men/dist/images/map/27.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/28.svg": {
+	"/dist/images/map/28.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/28.svg",
+		"oAP": "/those-catholic-men/dist/images/map/28.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/29.svg": {
+	"/dist/images/map/29.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/29.svg",
+		"oAP": "/those-catholic-men/dist/images/map/29.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/3.svg": {
+	"/dist/images/map/3.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/3.svg",
+		"oAP": "/those-catholic-men/dist/images/map/3.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/30.svg": {
+	"/dist/images/map/30.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/30.svg",
+		"oAP": "/those-catholic-men/dist/images/map/30.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/31.svg": {
+	"/dist/images/map/31.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/31.svg",
+		"oAP": "/those-catholic-men/dist/images/map/31.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/33.svg": {
+	"/dist/images/map/33.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/33.svg",
+		"oAP": "/those-catholic-men/dist/images/map/33.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/34.svg": {
+	"/dist/images/map/34.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/34.svg",
+		"oAP": "/those-catholic-men/dist/images/map/34.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/35.svg": {
+	"/dist/images/map/35.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/35.svg",
+		"oAP": "/those-catholic-men/dist/images/map/35.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/36.svg": {
+	"/dist/images/map/36.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/36.svg",
+		"oAP": "/those-catholic-men/dist/images/map/36.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/37.svg": {
+	"/dist/images/map/37.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/37.svg",
+		"oAP": "/those-catholic-men/dist/images/map/37.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/38.svg": {
+	"/dist/images/map/38.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/38.svg",
+		"oAP": "/those-catholic-men/dist/images/map/38.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/39.svg": {
+	"/dist/images/map/39.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/39.svg",
+		"oAP": "/those-catholic-men/dist/images/map/39.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/4.svg": {
+	"/dist/images/map/4.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/4.svg",
+		"oAP": "/those-catholic-men/dist/images/map/4.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/40.svg": {
+	"/dist/images/map/40.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/40.svg",
+		"oAP": "/those-catholic-men/dist/images/map/40.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/41.svg": {
+	"/dist/images/map/41.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/41.svg",
+		"oAP": "/those-catholic-men/dist/images/map/41.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/42.svg": {
+	"/dist/images/map/42.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/42.svg",
+		"oAP": "/those-catholic-men/dist/images/map/42.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/43.svg": {
+	"/dist/images/map/43.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/43.svg",
+		"oAP": "/those-catholic-men/dist/images/map/43.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/44.svg": {
+	"/dist/images/map/44.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/44.svg",
+		"oAP": "/those-catholic-men/dist/images/map/44.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/45.svg": {
+	"/dist/images/map/45.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/45.svg",
+		"oAP": "/those-catholic-men/dist/images/map/45.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/46.svg": {
+	"/dist/images/map/46.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/46.svg",
+		"oAP": "/those-catholic-men/dist/images/map/46.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/47.svg": {
+	"/dist/images/map/47.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/47.svg",
+		"oAP": "/those-catholic-men/dist/images/map/47.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/48.svg": {
+	"/dist/images/map/48.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/48.svg",
+		"oAP": "/those-catholic-men/dist/images/map/48.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/5.svg": {
+	"/dist/images/map/5.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/5.svg",
+		"oAP": "/those-catholic-men/dist/images/map/5.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/6.svg": {
+	"/dist/images/map/6.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/6.svg",
+		"oAP": "/those-catholic-men/dist/images/map/6.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/7.svg": {
+	"/dist/images/map/7.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/7.svg",
+		"oAP": "/those-catholic-men/dist/images/map/7.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/8.svg": {
+	"/dist/images/map/8.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/8.svg",
+		"oAP": "/those-catholic-men/dist/images/map/8.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/map\/9.svg": {
+	"/dist/images/map/9.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/dist\/images\/map\/9.svg",
+		"oAP": "/those-catholic-men/dist/images/map/9.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/play-btn.png": {
+	"/dist/images/play-btn.png": {
 		"ft": 32768,
 		"iS": 532,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/play-btn.png",
+		"oAP": "/those-catholic-men/dist/images/play-btn.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/portrait-01.png": {
+	"/dist/images/portrait-01.png": {
 		"ft": 32768,
 		"iS": 24179,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/portrait-01.png",
+		"oAP": "/those-catholic-men/dist/images/portrait-01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/portrait-02.png": {
+	"/dist/images/portrait-02.png": {
 		"ft": 32768,
 		"iS": 28081,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/portrait-02.png",
+		"oAP": "/those-catholic-men/dist/images/portrait-02.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/portrait-03.png": {
+	"/dist/images/portrait-03.png": {
 		"ft": 32768,
 		"iS": 32920,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/portrait-03.png",
+		"oAP": "/those-catholic-men/dist/images/portrait-03.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/portrait-04.png": {
+	"/dist/images/portrait-04.png": {
 		"ft": 32768,
 		"iS": 27680,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/portrait-04.png",
+		"oAP": "/those-catholic-men/dist/images/portrait-04.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/portrait-big-01.png": {
+	"/dist/images/portrait-big-01.png": {
 		"ft": 32768,
 		"iS": 67807,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/portrait-big-01.png",
+		"oAP": "/those-catholic-men/dist/images/portrait-big-01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/state-new-york.png": {
+	"/dist/images/state-new-york.png": {
 		"ft": 32768,
 		"iS": 7175,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/state-new-york.png",
+		"oAP": "/those-catholic-men/dist/images/state-new-york.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/dist\/images\/video-preview-1.jpg": {
+	"/dist/images/video-preview-1.jpg": {
 		"ft": 16384,
 		"iS": 52391,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/images\/video-preview-1.jpg",
+		"oAP": "/those-catholic-men/dist/images/video-preview-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
 		},
-	"\/dist\/js\/articles.js": {
+	"/dist/js/articles.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/js\/articles.min.js",
+		"oAP": "/those-catholic-men/dist/js/articles.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/dist\/js\/events.js": {
+	"/dist/js/events.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/js\/events.min.js",
+		"oAP": "/those-catholic-men/dist/js/events.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/dist\/js\/global.js": {
+	"/dist/js/global.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/js\/global.min.js",
+		"oAP": "/those-catholic-men/dist/js/global.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/dist\/js\/home.js": {
+	"/dist/js/home.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/dist\/js\/home.min.js",
+		"oAP": "/those-catholic-men/dist/js/home.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/footer.php": {
+	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/footer.php",
+		"oAP": "/those-catholic-men/footer.php",
 		"oF": 0
 		},
-	"\/functions.php": {
+	"/functions.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/functions.php",
+		"oAP": "/those-catholic-men/functions.php",
 		"oF": 0
 		},
-	"\/header.php": {
+	"/header.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/header.php",
+		"oAP": "/those-catholic-men/header.php",
 		"oF": 0
 		},
-	"\/inc\/info-site.php": {
+	"/inc/info-site.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/inc\/info-site.php",
+		"oAP": "/those-catholic-men/inc/info-site.php",
 		"oF": 0
 		},
-	"\/inc\/social-links.php": {
+	"/inc/social-links.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/inc\/social-links.php",
+		"oAP": "/those-catholic-men/inc/social-links.php",
 		"oF": 0
 		},
-	"\/index.php": {
+	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/index.php",
+		"oAP": "/those-catholic-men/index.php",
 		"oF": 0
 		},
-	"\/js\/customizer.js": {
+	"/js/customizer.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/js\/customizer.min.js",
+		"oAP": "/those-catholic-men/js/customizer.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/navigation.js": {
+	"/js/navigation.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/js\/navigation.min.js",
+		"oAP": "/those-catholic-men/js/navigation.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/skip-link-focus-fix.js": {
+	"/js/skip-link-focus-fix.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/js\/skip-link-focus-fix.min.js",
+		"oAP": "/those-catholic-men/js/skip-link-focus-fix.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/layouts\/content-sidebar.css": {
+	"/layouts/content-sidebar.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/layouts\/content-sidebar.min.css",
+		"oAP": "/those-catholic-men/layouts/content-sidebar.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/layouts\/sidebar-content.css": {
+	"/layouts/sidebar-content.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/layouts\/sidebar-content.min.css",
+		"oAP": "/those-catholic-men/layouts/sidebar-content.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/page-meta\/donate.php": {
+	"/page-meta/donate.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page-meta\/donate.php",
+		"oAP": "/those-catholic-men/page-meta/donate.php",
 		"oF": 0
 		},
-	"\/page-meta\/events.php": {
+	"/page-meta/events.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page-meta\/events.php",
+		"oAP": "/those-catholic-men/page-meta/events.php",
 		"oF": 0
 		},
-	"\/page-meta\/exodus.php": {
+	"/page-meta/exodus.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page-meta\/exodus.php",
+		"oAP": "/those-catholic-men/page-meta/exodus.php",
 		"oF": 0
 		},
-	"\/page-meta\/home.php": {
+	"/page-meta/home.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page-meta\/home.php",
+		"oAP": "/those-catholic-men/page-meta/home.php",
 		"oF": 0
 		},
-	"\/page-templates\/about.php": {
+	"/page-templates/about.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page-templates\/about.php",
+		"oAP": "/those-catholic-men/page-templates/about.php",
 		"oF": 0
 		},
-	"\/page-templates\/articles.php": {
+	"/page-templates/articles.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page-templates\/articles.php",
+		"oAP": "/those-catholic-men/page-templates/articles.php",
 		"oF": 0
 		},
-	"\/page-templates\/authors.php": {
+	"/page-templates/authors.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page-templates\/authors.php",
+		"oAP": "/those-catholic-men/page-templates/authors.php",
 		"oF": 0
 		},
-	"\/page-templates\/blank.php": {
+	"/page-templates/blank.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page-templates\/blank.php",
+		"oAP": "/those-catholic-men/page-templates/blank.php",
 		"oF": 0
 		},
-	"\/page-templates\/contact-us.php": {
+	"/page-templates/contact-us.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page-templates\/contact-us.php",
+		"oAP": "/those-catholic-men/page-templates/contact-us.php",
 		"oF": 0
 		},
-	"\/page-templates\/donate.php": {
+	"/page-templates/donate.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page-templates\/donate.php",
+		"oAP": "/those-catholic-men/page-templates/donate.php",
 		"oF": 0
 		},
-	"\/page-templates\/eventspage.php": {
+	"/page-templates/eventspage.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page-templates\/eventspage.php",
+		"oAP": "/those-catholic-men/page-templates/eventspage.php",
 		"oF": 0
 		},
-	"\/page-templates\/home.php": {
+	"/page-templates/home.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page-templates\/home.php",
+		"oAP": "/those-catholic-men/page-templates/home.php",
 		"oF": 0
 		},
-	"\/page-templates\/videos.php": {
+	"/page-templates/videos.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page-templates\/videos.php",
+		"oAP": "/those-catholic-men/page-templates/videos.php",
 		"oF": 0
 		},
-	"\/page.php": {
+	"/page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/page.php",
+		"oAP": "/those-catholic-men/page.php",
 		"oF": 0
 		},
-	"\/parts\/section-events.php": {
+	"/parts/section-events.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/parts\/section-events.php",
+		"oAP": "/those-catholic-men/parts/section-events.php",
 		"oF": 0
 		},
-	"\/parts\/section-header.php": {
+	"/parts/section-header.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/parts\/section-header.php",
+		"oAP": "/those-catholic-men/parts/section-header.php",
 		"oF": 0
 		},
-	"\/parts\/sidebar-content.php": {
+	"/parts/sidebar-content.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/parts\/sidebar-content.php",
+		"oAP": "/those-catholic-men/parts/sidebar-content.php",
 		"oF": 0
 		},
-	"\/post-types-meta\/events.php": {
+	"/post-types-meta/events.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/post-types-meta\/events.php",
+		"oAP": "/those-catholic-men/post-types-meta/events.php",
 		"oF": 0
 		},
-	"\/post-types-meta\/videos.php": {
+	"/post-types-meta/videos.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/post-types-meta\/videos.php",
+		"oAP": "/those-catholic-men/post-types-meta/videos.php",
 		"oF": 0
 		},
-	"\/post-types\/articles.php": {
+	"/post-types/articles.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/post-types\/articles.php",
+		"oAP": "/those-catholic-men/post-types/articles.php",
 		"oF": 0
 		},
-	"\/post-types\/events.php": {
+	"/post-types/events.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/post-types\/events.php",
+		"oAP": "/those-catholic-men/post-types/events.php",
 		"oF": 0
 		},
-	"\/post-types\/videos.php": {
+	"/post-types/videos.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/post-types\/videos.php",
+		"oAP": "/those-catholic-men/post-types/videos.php",
 		"oF": 0
 		},
-	"\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -1711,7 +1722,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/README.html",
+		"oAP": "/those-catholic-men/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -1720,118 +1731,112 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/readme.txt": {
+	"/readme.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/readme.txt",
+		"oAP": "/those-catholic-men/readme.txt",
 		"oF": 0
 		},
-	"\/rtl.css": {
+	"/rtl.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/rtl.min.css",
+		"oAP": "/those-catholic-men/rtl.min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/screenshot.png": {
+	"/screenshot.png": {
 		"ft": 32768,
 		"iS": 2364423,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/screenshot.png",
+		"oAP": "/those-catholic-men/screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 88
 		},
-	"\/search.php": {
+	"/search.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/search.php",
+		"oAP": "/those-catholic-men/search.php",
 		"oF": 0
 		},
-	"\/sidebar.php": {
+	"/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/sidebar.php",
+		"oAP": "/those-catholic-men/sidebar.php",
 		"oF": 0
 		},
-	"\/single-videos.php": {
+	"/single-videos.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/single-videos.php",
+		"oAP": "/those-catholic-men/single-videos.php",
 		"oF": 0
 		},
-	"\/single.php": {
+	"/single.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/single.php",
+		"oAP": "/those-catholic-men/single.php",
 		"oF": 0
 		},
-	"\/style.css": {
+	"/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/those-catholic-men\/style.css",
+		"oAP": "/those-catholic-men/style.css",
 		"oF": 3,
 		"oS": 3
 		},
-	"\/tag.php": {
+	"/tag.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/tag.php",
+		"oAP": "/those-catholic-men/tag.php",
 		"oF": 0
 		},
-	"\/template-parts\/content-none.php": {
+	"/template-parts/content-none.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/template-parts\/content-none.php",
+		"oAP": "/those-catholic-men/template-parts/content-none.php",
 		"oF": 0
 		},
-	"\/template-parts\/content-page.php": {
+	"/template-parts/content-page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/template-parts\/content-page.php",
+		"oAP": "/those-catholic-men/template-parts/content-page.php",
 		"oF": 0
 		},
-	"\/template-parts\/content-search.php": {
+	"/template-parts/content-search.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/template-parts\/content-search.php",
+		"oAP": "/those-catholic-men/template-parts/content-search.php",
 		"oF": 0
 		},
-	"\/template-parts\/content-single.php": {
+	"/template-parts/content-single.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/template-parts\/content-single.php",
+		"oAP": "/those-catholic-men/template-parts/content-single.php",
 		"oF": 0
 		},
-	"\/template-parts\/content.php": {
+	"/template-parts/content.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/those-catholic-men\/template-parts\/content.php",
-		"oF": 0
-		},
-	"\/those-catholic-men": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/those-catholic-men\/those-catholic-men",
+		"oAP": "/those-catholic-men/template-parts/content.php",
 		"oF": 0
 		}
 	},
@@ -1843,150 +1848,103 @@
 	"creationDate": 541231663,
 	"displayValue": "tcm-main",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/dist\/images\/logo-color.png",
+	"iconImageName": "/dist/images/logo-color.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 558320636
+	"lastBuiltDate": 560451621.61599898
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -1998,7 +1956,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -2010,7 +1989,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -2046,53 +2043,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -2101,6 +2091,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 1,
 	"buildFolderName": "those-catholic-men",
 	"cleanBuild": 1,
@@ -2458,6 +2449,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -2469,6 +2464,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -2514,6 +2513,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -2532,10 +2535,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -2734,9 +2733,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -3090,6 +3093,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -3118,6 +3125,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -3125,6 +3136,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -3180,7 +3195,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -3240,7 +3255,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3635,7 +3650,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -3654,7 +3668,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -3686,19 +3700,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -3754,7 +3768,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -3783,7 +3797,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -3807,36 +3821,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3844,11 +3892,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3872,6 +3920,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -3888,7 +3940,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3896,20 +3956,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -3924,6 +3996,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -3932,12 +4012,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -3948,11 +4036,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3964,23 +4060,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3992,13 +4116,21 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/those-catholic-men"
+	"websiteRelativeRoot": "/those-catholic-men"
 	},
 "settingsFileVersion": "3"
 }
