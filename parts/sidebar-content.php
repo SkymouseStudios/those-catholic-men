@@ -1,8 +1,8 @@
 <?php // This is the sidebar on individual blog posts ?>
 
 <div class="itunes">
-    <a href="https://www.eventbrite.com/e/the-beer-option-a-farm-retreat-for-men-tickets-49853475086">
-        <img style="width:100%;" src="https://thosecatholicmen.com/wp-content/uploads/2018/10/V1_WebsiteBanner_300x600.jpg" alt="The Beer Option.">
+    <a href="https://thosecatholicmen.com/articles/a-new-and-necessary-book-by-jason-craig-editor-of-thosecatholicmen-com/">
+        <img style="width:100%;" src="https://thosecatholicmen.com/wp-content/uploads/2018/12/leaving-boyhood-behind.jpg" alt="Leaving Boyhood Behind by Jason Craig">
     </a>
 </div>
 

@@ -15,7 +15,7 @@
 		"uuidString": "E6D007B9-969D-473B-B65D-BAF391AE7D41"
 		}
 	],
-"creatorBuild": "28901",
+"creatorBuild": "28905",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -1850,7 +1850,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/dist/images/logo-color.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 560451621.61599898
+	"lastBuiltDate": 566754259.39073598
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
