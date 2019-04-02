@@ -26,6 +26,9 @@
     <link rel="icon" href="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2018/01/those-catholic-men-icon.png" sizes="192x192">
     <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
 
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>

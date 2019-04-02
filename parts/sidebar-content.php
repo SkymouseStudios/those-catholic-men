@@ -1,6 +1,12 @@
 <?php // This is the sidebar on individual blog posts ?>
 
 <div class="itunes">
+    <a href="https://exodus90.com/?utm_source=tcm_website&utm_medium=banner&utm_campaign=top_sidebar_banner">
+        <img style="width:100%;" src="https://thosecatholicmen.com/wp-content/uploads/2019/02/300-600-lent.png" alt="Leaving Boyhood Behind by Jason Craig">
+    </a>
+</div>
+
+<div class="itunes">
     <a href="https://thosecatholicmen.com/articles/a-new-and-necessary-book-by-jason-craig-editor-of-thosecatholicmen-com/">
         <img style="width:100%;" src="https://thosecatholicmen.com/wp-content/uploads/2018/12/leaving-boyhood-behind.jpg" alt="Leaving Boyhood Behind by Jason Craig">
     </a>
@@ -24,7 +30,7 @@
 </div>  
 </div>
 
-<div id="amznCharityBanner" style="margin-bottom: 30px;"><a href="https://smile.amazon.com"><img style="width: 100%;" src="https://thosecatholicmen.com/wp-content/uploads/2018/12/GENERALHOLIDAY2_300x250._CB479440898_.png" alt="Amazon Smile Banner"></a></div>
+<div id="amznCharityBanner" style="margin-bottom: 30px;"><a href="https://smile.amazon.com"><img style="width: 100%;" src="https://thosecatholicmen.com/wp-content/uploads/2019/02/amazonsmile.jpg" alt="Amazon Smile Banner"></a></div>
 
 <div class="popular-posts">
     <h3>Recent Articles</h3>

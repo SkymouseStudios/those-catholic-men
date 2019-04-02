@@ -15,11 +15,12 @@
 		"uuidString": "E6D007B9-969D-473B-B65D-BAF391AE7D41"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "29156",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/.gitignore",
 		"oF": 0
@@ -27,6 +28,7 @@
 	"/404.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/404.php",
 		"oF": 0
@@ -34,6 +36,7 @@
 	"/archive.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/archive.php",
 		"oF": 0
@@ -41,6 +44,7 @@
 	"/author.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/author.php",
 		"oF": 0
@@ -53,6 +57,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/Changelog.html",
 		"oF": 0,
@@ -66,6 +71,7 @@
 	"/comments.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/comments.php",
 		"oF": 0
@@ -73,6 +79,7 @@
 	"/create-event.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/create-event.php",
 		"oF": 0
@@ -220,6 +227,7 @@
 	"/dist/fonts/fontello.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/fontello.eot",
 		"oF": 0
@@ -237,6 +245,7 @@
 	"/dist/fonts/fontello.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/fontello.ttf",
 		"oF": 0
@@ -244,6 +253,7 @@
 	"/dist/fonts/fontello.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/fontello.woff",
 		"oF": 0
@@ -251,6 +261,7 @@
 	"/dist/fonts/gothaprolig-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/gothaprolig-webfont.eot",
 		"oF": 0
@@ -268,6 +279,7 @@
 	"/dist/fonts/gothaprolig-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/gothaprolig-webfont.ttf",
 		"oF": 0
@@ -275,6 +287,7 @@
 	"/dist/fonts/gothaprolig-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/gothaprolig-webfont.woff",
 		"oF": 0
@@ -282,6 +295,7 @@
 	"/dist/fonts/gothaprolig-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/gothaprolig-webfont.woff2",
 		"oF": 0
@@ -289,6 +303,7 @@
 	"/dist/fonts/gothapromed-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/gothapromed-webfont.eot",
 		"oF": 0
@@ -306,6 +321,7 @@
 	"/dist/fonts/gothapromed-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/gothapromed-webfont.ttf",
 		"oF": 0
@@ -313,6 +329,7 @@
 	"/dist/fonts/gothapromed-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/gothapromed-webfont.woff",
 		"oF": 0
@@ -320,6 +337,7 @@
 	"/dist/fonts/gothapromed-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/gothapromed-webfont.woff2",
 		"oF": 0
@@ -327,6 +345,7 @@
 	"/dist/fonts/goudystm-italic-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/goudystm-italic-webfont.eot",
 		"oF": 0
@@ -344,6 +363,7 @@
 	"/dist/fonts/goudystm-italic-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/goudystm-italic-webfont.ttf",
 		"oF": 0
@@ -351,6 +371,7 @@
 	"/dist/fonts/goudystm-italic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/goudystm-italic-webfont.woff",
 		"oF": 0
@@ -358,6 +379,7 @@
 	"/dist/fonts/goudystm-italic-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/goudystm-italic-webfont.woff2",
 		"oF": 0
@@ -365,6 +387,7 @@
 	"/dist/fonts/goudystm-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/goudystm-webfont.eot",
 		"oF": 0
@@ -382,6 +405,7 @@
 	"/dist/fonts/goudystm-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/goudystm-webfont.ttf",
 		"oF": 0
@@ -389,6 +413,7 @@
 	"/dist/fonts/goudystm-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/goudystm-webfont.woff",
 		"oF": 0
@@ -396,6 +421,7 @@
 	"/dist/fonts/goudystm-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/fonts/goudystm-webfont.woff2",
 		"oF": 0
@@ -579,6 +605,7 @@
 	"/dist/images/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/dist/images/favicon.ico",
 		"oF": 0
@@ -1428,6 +1455,7 @@
 		"q": 85
 		},
 	"/dist/js/articles.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1438,6 +1466,7 @@
 		"tS": 0
 		},
 	"/dist/js/events.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1448,6 +1477,7 @@
 		"tS": 0
 		},
 	"/dist/js/global.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1458,6 +1488,7 @@
 		"tS": 0
 		},
 	"/dist/js/home.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1470,6 +1501,7 @@
 	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/footer.php",
 		"oF": 0
@@ -1477,6 +1509,7 @@
 	"/functions.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/functions.php",
 		"oF": 0
@@ -1484,6 +1517,7 @@
 	"/header.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/header.php",
 		"oF": 0
@@ -1491,6 +1525,7 @@
 	"/inc/info-site.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/inc/info-site.php",
 		"oF": 0
@@ -1498,6 +1533,7 @@
 	"/inc/social-links.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/inc/social-links.php",
 		"oF": 0
@@ -1505,11 +1541,13 @@
 	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/index.php",
 		"oF": 0
 		},
 	"/js/customizer.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1520,6 +1558,7 @@
 		"tS": 0
 		},
 	"/js/navigation.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1530,6 +1569,7 @@
 		"tS": 0
 		},
 	"/js/skip-link-focus-fix.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1562,6 +1602,7 @@
 	"/page-meta/donate.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page-meta/donate.php",
 		"oF": 0
@@ -1569,6 +1610,7 @@
 	"/page-meta/events.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page-meta/events.php",
 		"oF": 0
@@ -1576,6 +1618,7 @@
 	"/page-meta/exodus.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page-meta/exodus.php",
 		"oF": 0
@@ -1583,6 +1626,7 @@
 	"/page-meta/home.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page-meta/home.php",
 		"oF": 0
@@ -1590,6 +1634,7 @@
 	"/page-templates/about.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page-templates/about.php",
 		"oF": 0
@@ -1597,6 +1642,7 @@
 	"/page-templates/articles.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page-templates/articles.php",
 		"oF": 0
@@ -1604,6 +1650,7 @@
 	"/page-templates/authors.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page-templates/authors.php",
 		"oF": 0
@@ -1611,6 +1658,7 @@
 	"/page-templates/blank.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page-templates/blank.php",
 		"oF": 0
@@ -1618,6 +1666,7 @@
 	"/page-templates/contact-us.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page-templates/contact-us.php",
 		"oF": 0
@@ -1625,6 +1674,7 @@
 	"/page-templates/donate.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page-templates/donate.php",
 		"oF": 0
@@ -1632,6 +1682,7 @@
 	"/page-templates/eventspage.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page-templates/eventspage.php",
 		"oF": 0
@@ -1639,6 +1690,7 @@
 	"/page-templates/home.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page-templates/home.php",
 		"oF": 0
@@ -1646,6 +1698,7 @@
 	"/page-templates/videos.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page-templates/videos.php",
 		"oF": 0
@@ -1653,6 +1706,7 @@
 	"/page.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/page.php",
 		"oF": 0
@@ -1660,6 +1714,7 @@
 	"/parts/section-events.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/parts/section-events.php",
 		"oF": 0
@@ -1667,6 +1722,7 @@
 	"/parts/section-header.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/parts/section-header.php",
 		"oF": 0
@@ -1674,6 +1730,7 @@
 	"/parts/sidebar-content.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/parts/sidebar-content.php",
 		"oF": 0
@@ -1681,6 +1738,7 @@
 	"/post-types-meta/events.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/post-types-meta/events.php",
 		"oF": 0
@@ -1688,6 +1746,7 @@
 	"/post-types-meta/videos.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/post-types-meta/videos.php",
 		"oF": 0
@@ -1695,6 +1754,7 @@
 	"/post-types/articles.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/post-types/articles.php",
 		"oF": 0
@@ -1702,6 +1762,7 @@
 	"/post-types/events.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/post-types/events.php",
 		"oF": 0
@@ -1709,6 +1770,7 @@
 	"/post-types/videos.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/post-types/videos.php",
 		"oF": 0
@@ -1721,6 +1783,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/README.html",
 		"oF": 0,
@@ -1734,6 +1797,7 @@
 	"/readme.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/readme.txt",
 		"oF": 0
@@ -1762,6 +1826,7 @@
 	"/search.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/search.php",
 		"oF": 0
@@ -1769,6 +1834,7 @@
 	"/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/sidebar.php",
 		"oF": 0
@@ -1776,6 +1842,7 @@
 	"/single-videos.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/single-videos.php",
 		"oF": 0
@@ -1783,6 +1850,7 @@
 	"/single.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/single.php",
 		"oF": 0
@@ -1800,6 +1868,7 @@
 	"/tag.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/tag.php",
 		"oF": 0
@@ -1807,6 +1876,7 @@
 	"/template-parts/content-none.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/template-parts/content-none.php",
 		"oF": 0
@@ -1814,6 +1884,7 @@
 	"/template-parts/content-page.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/template-parts/content-page.php",
 		"oF": 0
@@ -1821,6 +1892,7 @@
 	"/template-parts/content-search.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/template-parts/content-search.php",
 		"oF": 0
@@ -1828,6 +1900,7 @@
 	"/template-parts/content-single.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/template-parts/content-single.php",
 		"oF": 0
@@ -1835,6 +1908,7 @@
 	"/template-parts/content.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/those-catholic-men/template-parts/content.php",
 		"oF": 0
@@ -1850,7 +1924,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/dist/images/logo-color.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 566761056.02878702
+	"lastBuiltDate": 572976911.957798
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1935,6 +2009,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -1954,6 +2034,36 @@
 			"active": 0
 			},
 		"minify-booleans": {
+			"active": 0
+			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
 			"active": 0
 			},
 		"modules-amd": {
@@ -2004,6 +2114,9 @@
 		"pipeline-operator": {
 			"active": 0
 			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
 			"active": 0
 			},
@@ -2037,10 +2150,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -2989,6 +3108,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
@@ -3651,6 +3774,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3672,6 +3796,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -3694,7 +3819,8 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3733,6 +3859,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3742,7 +3869,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3763,7 +3891,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3792,7 +3921,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -3880,16 +4010,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -3901,14 +4035,14 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3931,6 +4065,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -3956,10 +4094,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -3968,13 +4102,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -3986,6 +4120,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -4008,13 +4146,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -4023,10 +4161,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -4050,6 +4184,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -4084,6 +4222,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -4093,6 +4235,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4120,15 +4266,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": "/those-catholic-men"
 	},
