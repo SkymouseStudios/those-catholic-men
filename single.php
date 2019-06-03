@@ -63,17 +63,27 @@ get_header(); ?>
                                             //do_shortcode(get_the_content()); ?>
                                         </div>
 
+                                        <?php if ($author) : ?>
+                                            <div class="post-author">
+                                                <div class="avatar"
+                                                         style="float: left; background-image: url(<?php echo tcm_get_avatar_url(get_avatar( get_the_author_meta('ID'), 150 )); ?>)"></div>
+                                                <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><h4><?php echo $author; ?></h4></a>
+                                                    
+                                                <p><?php echo nl2br(get_the_author_meta('description')); ?></p>
+                                            </div>
+                                        <?php endif; ?>
+
                                         <?php if (get_the_tag_list()) : ?>
                                             <div class="post-tags">
                                                 <?php echo get_the_tag_list(); ?>
                                             </div>
                                         <?php endif; ?>
-<div class="post-sign">
-	<div class="holder">
-                                        <strong class="signature">
-	        <?php if (!$author) : ?>By <?php echo $author; ?> - <?php endif; ?>
-	        <span class="date"><?php the_time('m d Y') ?></span>
-	    </strong>
+                                    <div class="post-sign">
+                                    	<div class="holder">
+                                                                            <strong class="signature">
+                                    	        <?php if (!$author) : ?>By <?php echo $author; ?> - <?php endif; ?>
+                                    	        <span class="date"><?php the_time('m d Y') ?></span>
+                                    	    </strong>
 
                                                 <div class="post-link-back">
                                                     <a href="<?php echo get_permalink(get_page_by_path($post_type)); ?>"
