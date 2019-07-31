@@ -1912,12 +1912,6 @@
 		"oA": 0,
 		"oAP": "/those-catholic-men/template-parts/content.php",
 		"oF": 0
-		},
-	"/those-catholic-men": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/those-catholic-men/those-catholic-men",
-		"oF": 0
 		}
 	},
 "hooks": [
@@ -1930,7 +1924,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/dist/images/logo-color.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 581276290.79938197
+	"lastBuiltDate": 586231815.30079198
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
