@@ -1,10 +1,10 @@
 /*
 Theme Name: Those Catholic Men
-Theme URI: http://86creative.com/
-Author: BigDrop
-Author URI: http://86creative.com/
+Theme URI: https://SkymouseStudios.com/
+Author: Skymouse Studios
+Author URI: https://SkymouseStudios.com/
 Description: The theme built for Those Catholic Men with the quest To Free Catholic Men.
-Version: 1.2.8
+Version: 2.0
 Text Domain: tcm
 */
 
@@ -162,4 +162,47 @@ Text Domain: tcm
 	    height: 414px;
 	    background-size: 100% auto;
 	}
+}
+
+/* // New Blog Styles */
+
+h1 {
+    font-size: 3em;
+}
+
+h1, h2, h3, h4 {
+    font-family: gotham_promedium;
+}
+
+.post-text h1, .post-text h2, .post-text h3, .post-text h4 {
+    color: #202020;
+}
+
+body, p { 
+    font-family: "Bitter";
+}
+
+.post-text p, .post-text i, .post-text em {
+    line-height: 2em;
+    color: #202020;
+    font-family: "Bitter";
+    font-weight: 100;
+}
+
+#main-nav li {
+    text-transform: none;
+}
+
+.post-author .avatar {
+    border-radius: 50px
+}
+
+.post-text blockquote {
+    font-size: 2em;
+    margin-bottom: 0px;
+    padding-left: 30px;
+}
+
+.post-text blockquote p {
+    line-height: 1.6em;
 }

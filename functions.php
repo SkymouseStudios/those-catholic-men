@@ -48,9 +48,11 @@ if (!function_exists('tcm_setup')) :
         )));
     }
 endif; // tcm_setup
+
 add_action('after_setup_theme', 'tcm_setup');
 
-show_admin_bar(false);
+// show_admin_bar(false);
+
 function tcm_get_page_slug()
 {
     $post_id = filter_input(INPUT_GET, 'post', FILTER_SANITIZE_NUMBER_INT, FILTER_NULL_ON_FAILURE);
@@ -135,7 +137,7 @@ add_action('wp_enqueue_scripts', 'tcm_enqueue_scripts');
 
 //Meta box
 require_once 'page-meta/home.php';
-require_once 'page-meta/exodus.php';
+//require_once 'page-meta/exodus.php';
 //require_once 'page-meta/events.php';
 require_once 'page-meta/donate.php';
 
@@ -218,20 +220,6 @@ function do_excerpt($string, $limit)
         $string .= '...';
     }
     echo $string;
-}
-
-// disable updates
-add_filter('pre_site_transient_update_plugins', '__return_null');
-remove_action('load-update-core.php', 'wp_update_plugins');
-add_action('after_setup_theme', 'remove_core_updates');
-function remove_core_updates()
-{
-    if (!current_user_can('update_core')) {
-        return;
-    }
-    add_action('init', create_function('$a', "remove_action( 'init', 'wp_version_check' );"), 2);
-    add_filter('pre_option_update_core', '__return_null');
-    add_filter('pre_site_transient_update_core', '__return_null');
 }
 
 //Set status for comment - open

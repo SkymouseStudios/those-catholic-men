@@ -63,6 +63,10 @@ get_header(); ?>
                                             //do_shortcode(get_the_content()); ?>
                                         </div>
 
+                                        <a href="https://www.theswordandspade.com/wwwtheswordandspadecom-subscribe">
+                                        <img src="https://thosecatholicmen.com/wp-content/uploads/2020/07/sword-spade-ad-HZ-v1.jpg" alt="Sword and Spade Ad">
+                                        </a>
+
                                         <?php if ($author) : ?>
                                             <div class="post-author">
                                                 <div class="avatar"

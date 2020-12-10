@@ -1,36 +1,14 @@
 <?php // This is the sidebar on individual blog posts ?>
 
-<div class="itunes">
-    <a href="https://www.cardinalstudios.org/strive">
-        <img style="width:100%;" src="https://thosecatholicmen.com/wp-content/uploads/2019/07/Unknown.jpeg" alt="Strive Promotion">
-    </a>
-</div>
-
-<div class="itunes">
-    <a href="https://thosecatholicmen.com/articles/a-new-and-necessary-book-by-jason-craig-editor-of-thosecatholicmen-com/">
-        <img style="width:100%;" src="https://thosecatholicmen.com/wp-content/uploads/2018/12/leaving-boyhood-behind.jpg" alt="Leaving Boyhood Behind by Jason Craig">
-    </a>
-</div>
-
-<div class="itunes">
-	<a href="https://itunes.apple.com/us/podcast/those-catholic-men/id1340543443?mt=2" onclick="dataLayer.push({'event': 'itunes-podcast-button'});"><img style="width:100%;" src="https://thosecatholicmen.com/wp-content/uploads/2018/01/itunes-retina.png" alt="Subscribe on itunes"></a>
-</div>
-
-<div class="itunes">
-<a href='https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Imjtmx62jud7dkt7e2kx3wcwhpu?t%3DThoseCatholicMen.com%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16' rel='nofollow' onclick="dataLayer.push({'event': 'google-play-podcast-button'});">
-    <img style="width:100%;" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
-</a>
-</div>
-
 <div class="border">
     <h3>Become one of <br>Those Catholic Men</h3>
     <div id="promo"></div>
   <div class="new-subscribe">
-    <?php echo do_shortcode('[mc4wp_form id="1878"]'); ?>
+    <?php // echo do_shortcode('[mc4wp_form id="1878"]'); ?>
+
+    <a href="https://app.e2ma.net/app2/audience/signup/1927130/1744200/">Join our list</a>
 </div>  
 </div>
-
-<div id="amznCharityBanner" style="margin-bottom: 30px;"><a href="https://smile.amazon.com"><img style="width: 100%;" src="https://thosecatholicmen.com/wp-content/uploads/2019/02/amazonsmile.jpg" alt="Amazon Smile Banner"></a></div>
 
 <div class="popular-posts">
     <h3>Recent Articles</h3>
@@ -53,13 +31,3 @@
         ?>
     </ul>
 </div>
-
- <div class="exodus90 exodus90_hz">
-	<a id="exodus90FooterBanner" href="https://exodus90.com/?utm_source=tcm_website&utm_medium=banner&utm_campaign=sidebar_banner" target="_blank">
-       <img src="https://thosecatholicmen.com/wp-content/uploads/2018/09/logo-exodus-white-small-2.png" alt="Exodus 90 Logo">
-       <h1>The Church Needs<br> Men Who Are Free.</h1>
-       <div class="video-button">Watch the Video</div>
-    </a>
-</div>
-
-<span class="red"></span><span class="green"></span>
